@@ -25,48 +25,79 @@
 \begin{document}
 \maketitle
 
-\begin{center}
-\textit{Note: This template provides a suggested structure aligned with the current task categories. You may adjust headings if needed and please ensure all required components are covered.}
-\end{center}
-
 \section{Contributions}
-\textit{Clearly state each team member's specific contributions. Be concrete.}
 \begin{itemize}[leftmargin=*]
-    \item Eingang Fabian:
-    \begin{itemize}
-        \item Dataset selection and acquisition
-        \item Data quality analysis and preprocessing pipeline
-    \end{itemize}
-    \item Kotschnig Thomas:
-    \begin{itemize}
-        \item Visualizations and EDA
-        \item Probability analysis tasks
-    \end{itemize}
-    \item Krenn Matthias:
-    \begin{itemize}
-        \item Regression modeling and interpretation
-        \item Report writing and figure polishing
-    \end{itemize}
+    \item Eingang Fabian: Dataset selection and acquisition, Data quality analysis and preprocessing pipeline
+    \item Kotschnig Thomas: Visualizations and EDA, Probability analysis tasks
+    \item Krenn Matthias: Regression modeling and interpretation, Report writing and figure polishing
+
 \end{itemize}
 
 \section{Dataset Description}
 \begin{itemize}[leftmargin=*]
     \item "Bike sales in Europe" from https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
     \item It has more than 100k entries of sales data from different countries. Streching from 2011 to 2016, with a daily sampling frequency.
-    \item Key variables analyzed: unit price, unit cost, date, order quantity, customer age, product type
+    \item Key variables analyzed: unit price, unit cost, profit, cost, revenue, date, order quantity, customer age, product category, product
     \item Shape: 113036 rows x 18 columns
     \item No missing data, however, the entry of some dates is missing completely. 
-    This resolves in no missing data, but inconsistent time series. There is only one bigger gap, therefore we decided 
-    \item Any known limitations or caveats:
+    This resolves in no missing data, but inconsistent time series. 
+    There is only one bigger gap, therefore we decided for it to be okay.
 \end{itemize}
 
 \section{Task 1. Data Preprocessing and Basic Analysis}
 
 \subsection{Basic statistical analysis using pandas}
-\begin{itemize}[leftmargin=*]
-    \item Descriptive stats (mean, std, min, max, quantiles) for key variables:
-    \item Grouped summaries where relevant (by day, device, category, test run):
-\end{itemize}
+Statistical summary of key numeric variables was obtained using pandas \texttt{describe()} function:
+\begin{table}[h!]
+\caption{Desriptive statistics}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{0.9}
+\begin{tabular}{|l|r|r|r|r|r|r|r|}
+\hline
+ & \textbf{Customer Age} & \textbf{Order Qty} & \textbf{Unit Cost} & \textbf{Unit Price} & \textbf{Profit} & \textbf{Cost} & \textbf{Revenue} \\
+\hline
+Count & 113036 & 113036 & 113036 & 113036 & 113036 & 113036 & 113036 \\
+Mean  & 35.92  & 11.90  & 267.30 & 452.94 & 285.05 & 469.32 & 754.37 \\
+Std   & 11.02  & 9.56   & 549.84 & 922.07 & 453.89 & 884.87 & 1309.09 \\
+Min   & 17     & 1      & 1      & 2      & -30    & 1      & 2 \\
+25\%  & 28     & 2      & 2      & 5      & 29     & 28     & 63 \\
+50\%  & 35     & 10     & 9      & 24     & 101    & 108    & 223 \\
+75\%  & 43     & 20     & 42     & 70     & 358    & 432    & 800 \\
+Max   & 87     & 32     & 2171   & 3578   & 15096  & 42978  & 58074 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\caption{Grouped summary of Revenue, Profit, and Order Quantity by Country}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{0.9}
+\begin{tabular}{|l|ccc|cc|cc|}
+\hline
+\textbf{Country} &
+\multicolumn{3}{c|}{\textbf{Revenue}} &
+\multicolumn{2}{c|}{\textbf{Profit}} &
+\multicolumn{2}{c|}{\textbf{Order Quantity}} \\
+\hline
+ &
+\textbf{Sum} & \textbf{Mean} & \textbf{Count} &
+\textbf{Sum} & \textbf{Mean} &
+\textbf{Sum} & \textbf{Mean} \\
+\hline
+United States  & 27975547 & 713.55 & 39206 & 11073644 & 282.45 & 477539 & 12.18 \\
+Australia      & 21302059 & 889.96 & 23936 & 6776030  & 283.09 & 263585 & 11.01 \\
+United Kingdom & 10646196 & 781.66 & 13620 & 4413853  & 324.07 & 157218 & 11.54 \\
+Germany        & 8978596  & 809.03 & 11098 & 3359995  & 302.76 & 125720 & 11.33 \\
+France         & 8432872  & 766.76 & 10998 & 2880282  & 261.89 & 128995 & 11.73 \\
+Canada         & 7935738  & 559.72 & 14178 & 3717296  & 262.19 & 192259 & 13.56 \\
+\hline
+\end{tabular}
+\end{table}
+
 
 \subsection{Original data quality analysis including visualization}
 \begin{itemize}[leftmargin=*]
@@ -74,6 +105,29 @@
     \item Outliers and suspicious values (plots and rule used):
     \item Consistency checks (timestamps order, duplicates, impossible values):
 \end{itemize}
+
+% \begin{figure}[ht]
+% \centering
+% \begin{minipage}{0.48\textwidth}
+%     \centering
+%     \includegraphics[width=\linewidth]{./figures/3_2_boxplots.png}
+%     \caption{Caption for left image}
+% \end{minipage}\hfill
+% \begin{minipage}{0.48\textwidth}
+%     \centering
+%     \includegraphics[width=\linewidth]{figure2}
+%     \caption{Caption for right image}
+% \end{minipage}
+% \end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\textwidth]{./figures/3_2_boxplots.png}
+\caption{Your figure caption}
+\label{fig:your_label}
+\end{figure}
+
+
 
 \subsection{Data preprocessing}
 \begin{itemize}[leftmargin=*]
