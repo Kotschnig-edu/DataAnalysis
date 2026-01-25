@@ -1,0 +1,243 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=1in}
+
+\title{Data Analysis Final Assignment Report}
+\author{% 
+  Team: TEAMNAME\\ 
+  Author Name 1
+  \And
+  Author Name 2 
+  \And 
+  Author Name 3 
+  }
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\textit{Note: This template provides a suggested structure aligned with the current task categories. You may adjust headings if needed and please ensure all required components are covered.}
+\end{center}
+
+\section{Contributions}
+\textit{Clearly state each team member's specific contributions. Be concrete.}
+\begin{itemize}[leftmargin=*]
+    \item Member 1:
+    \begin{itemize}
+        \item Dataset selection and acquisition
+        \item Data quality analysis and preprocessing pipeline
+    \end{itemize}
+    \item Member 2:
+    \begin{itemize}
+        \item Visualizations and EDA
+        \item Probability analysis tasks
+    \end{itemize}
+    \item Member 3:
+    \begin{itemize}
+        \item Regression modeling and interpretation
+        \item Report writing and figure polishing
+    \end{itemize}
+\end{itemize}
+
+\section{Dataset Description}
+\begin{itemize}[leftmargin=*]
+    \item Dataset name and source (Kaggle, Hugging Face, Westermo tests, etc.):
+    \item Why it is suitable for time-series analysis:
+    \item Time period covered and sampling frequency:
+    \item Key variables analyzed (signals, sensors, physical quantities):
+    \item Size and structure:
+    \begin{itemize}
+        \item Number of observations (rows):
+        \item Number of features (columns):
+        \item Target variable(s) if any:
+    \end{itemize}
+    \item Missing data summary:
+    \item Any known limitations or caveats:
+\end{itemize}
+
+\section{Task 1. Data Preprocessing and Basic Analysis}
+
+\subsection{Basic statistical analysis using pandas}
+\begin{itemize}[leftmargin=*]
+    \item Descriptive stats (mean, std, min, max, quantiles) for key variables:
+    \item Grouped summaries where relevant (by day, device, category, test run):
+\end{itemize}
+
+\subsection{Original data quality analysis including visualization}
+\begin{itemize}[leftmargin=*]
+    \item Missingness patterns (counts, heatmap, timeline gaps):
+    \item Outliers and suspicious values (plots and rule used):
+    \item Consistency checks (timestamps order, duplicates, impossible values):
+\end{itemize}
+
+\subsection{Data preprocessing}
+\begin{itemize}[leftmargin=*]
+    \item Cleaning steps performed:
+    \item Missing-value treatment (drop, impute, interpolate, forward fill, etc.):
+    \item Outlier handling (range, threshold, IQR, percentile, justify choice):
+    \item Feature engineering (e.g., scaling/normalization, log):
+    \item Final dataset shape after preprocessing:
+\end{itemize}
+
+\subsection{Preprocessed vs original data visual analysis}
+\begin{itemize}[leftmargin=*]
+    \item Before vs after comparison plots (at least 2 to 3 key variables):
+    \item What improved and what trade-offs exist:
+\end{itemize}
+
+\section{Task 2. Visualization and Exploratory Analysis}
+
+\subsection{Time series visualizations}
+\begin{itemize}[leftmargin=*]
+    \item Plot of main variable(s) over time:
+    \item Annotations for notable events or pattern shifts (if applicable):
+\end{itemize}
+
+\subsection{Distribution analysis with histograms}
+\begin{itemize}[leftmargin=*]
+    \item Histograms for key numeric variables:
+    \item Notes on skewness, heavy tails, multi-modality:
+\end{itemize}
+
+\subsection{Correlation analysis and heatmaps}
+\begin{itemize}[leftmargin=*]
+    \item Correlation type used (Pearson or Spearman) and why:
+    \item Heatmap and top correlated pairs with short interpretation:
+\end{itemize}
+
+\subsection{Daily pattern analysis}
+\begin{itemize}[leftmargin=*]
+    \item Aggregation method (hourly means, day-of-week, rolling averages):
+    \item Plots showing daily cycles or weekday-weekend differences:
+    \item What patterns are stable vs noisy:
+\end{itemize}
+
+\subsection{Summary of observed patterns, similar to True/False questions}
+\textit{Write short, testable statements and answer them based on evidence. Example format below.}
+\begin{itemize}[leftmargin=*]
+    \item Statement 1 (True or False): \textbf{...}. Evidence: ...
+    \item Statement 2 (True or False): \textbf{...}. Evidence: ...
+    \item Statement 3 (True or False): \textbf{...}. Evidence: ...
+\end{itemize}
+
+\section{Task 3. Probability Analysis}
+
+\subsection{Threshold-based probability estimation}
+\begin{itemize}[leftmargin=*]
+    \item Define threshold(s) and justify choice:
+    \item Estimate probabilities of exceeding thresholds:
+    \item Visual support (e.g., empirical CDF, bar plot, timeline highlights):
+\end{itemize}
+
+\subsection{Cross tabulation analysis}
+\begin{itemize}[leftmargin=*]
+    \item Define two categorical variables (or binned numeric variables):
+    \item Present contingency table and interpret key cells:
+\end{itemize}
+
+\subsection{Conditional probability analysis}
+\begin{itemize}[leftmargin=*]
+    \item Define events $A$ and $B$:
+    \item Compute and interpret $P(A)$, $P(B)$, $P(A \mid B)$, $P(B \mid A)$:
+    \item Include at least one meaningful comparison and conclusion:
+\end{itemize}
+
+\subsection{Summary of observations from each probability task}
+\begin{itemize}[leftmargin=*]
+    \item Key takeaway from threshold probability:
+    \item Key takeaway from crosstab:
+    \item Key takeaway from conditional probability:
+\end{itemize}
+
+\section{Task 4. Statistical Theory Applications}
+
+\subsection{Law of Large Numbers (LLN) demonstration}
+\begin{itemize}[leftmargin=*]
+    \item Variable chosen and why it makes sense:
+    \item Experiment: show sample mean as $n$ increases:
+    \item Plot and short interpretation:
+\end{itemize}
+
+\subsection{Central Limit Theorem (CLT) application}
+\begin{itemize}[leftmargin=*]
+    \item Sampling procedure (sample size, number of trials, with or without replacement):
+    \item Show distribution of sample means for increasing $n$:
+    \item Plot(s): histogram(s) of sample means and comparison to normal shape:
+\end{itemize}
+
+\subsection{Result interpretation}
+\begin{itemize}[leftmargin=*]
+    \item What LLN showed in your data context:
+    \item What CLT showed, and any deviations and why:
+\end{itemize}
+
+\section{Task 5. Regression Analysis}
+
+\subsection{Linear or Polynomial model selection}
+\begin{itemize}[leftmargin=*]
+    \item Define target $y$ and predictors $X$:
+    \item Motivation for linear vs polynomial:
+    \item Any train-test split rationale (time-aware split if relevant):
+\end{itemize}
+
+\subsection{Model fitting and validation}
+\begin{itemize}[leftmargin=*]
+    \item Fit procedure and preprocessing (scaling, feature selection):
+    \item Validation method (holdout, time-series split, etc.):
+    \item Metrics reported (RMSE, MAE, $R^2$) and why:
+    \item Residual analysis (at least one plot recommended):
+\end{itemize}
+
+\subsection{Result interpretation and analysis}
+\begin{itemize}[leftmargin=*]
+    \item Main effects and practical meaning:
+    \item Failure cases or where model performs poorly:
+\end{itemize}
+
+\section{Bonus Tasks}
+\begin{itemize}[leftmargin=*]
+    \item New dataset bonus (10): state why dataset is new and provide link:
+    \item Q-Q plot with explanation (5):
+    \begin{itemize}
+        \item Either for CLT sample means, or regression residuals:
+        \item Interpretation of deviations from normality:
+    \end{itemize}
+    \item Interactive visualizations (up to 10): describe tool used and what interactivity adds:
+    \item Cross-validation in regression (5): method used and how results compare to holdout:
+    \item Additional exploration (up to 20): clearly state extra tasks and value gained:
+\end{itemize}
+
+\section{Key Findings and Conclusions}
+\begin{itemize}[leftmargin=*]
+    \item Main findings from preprocessing and EDA:
+    \item Main findings from probability tasks:
+    \item Main findings from LLN and CLT:
+    \item Main findings from regression:
+    \item Limitations:
+    \item What you would do next if you had more time:
+\end{itemize}
+
+\section{Reproducibility Notes}
+\begin{itemize}[leftmargin=*]
+    \item Exact dataset source link and version or download date:
+    \item Key libraries used and versions (optional but recommended):
+    \item How to run the notebook end-to-end:
+\end{itemize}
+
+% Optional
+% \section{References}
+% \begin{enumerate}
+%     \item ...
+% \end{enumerate}
+
+\end{document}
