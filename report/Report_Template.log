@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  25 JAN 2026 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  25 JAN 2026 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -272,8 +272,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count316
-)
-No file Report_Template.aux.
+) (Report_Template.aux)
 \openout1 = `Report_Template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -294,6 +293,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -390,6 +390,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+
+Overfull \hbox (3.28197pt too wide) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/10.95 "Bike sales in Eu-rope" from https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe 
+ []
+
 [1
 
 {C:/Users/matth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] [5] (Report_Template.aux)
@@ -408,15 +413,15 @@ Package rerunfilecheck Info: Checksums for `Report_Template.out':
 (rerunfilecheck)             After:  24088BAC7431C6A1E473D58478C24BA8;6594.
  ) 
 Here is how much of TeX's memory you used:
- 10513 strings out of 467871
- 162940 string characters out of 5418376
- 599458 words of memory out of 5000000
- 39251 multiletter control sequences out of 15000+600000
+ 10516 strings out of 467871
+ 163073 string characters out of 5418376
+ 600461 words of memory out of 5000000
+ 39252 multiletter control sequences out of 15000+600000
  634477 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,326b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,326b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Report_Template.pdf (5 pages, 147281 bytes).
+Output written on Report_Template.pdf (5 pages, 149519 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)

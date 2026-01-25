@@ -106,6 +106,9 @@ INPUT C:\Users\matth\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.
 INPUT C:\Users\matth\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\matth\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\matth\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\Report_Template.aux
+INPUT .\Report_Template.aux
+INPUT Report_Template.aux
 OUTPUT Report_Template.aux
 INPUT C:\Users\matth\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\matth\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii

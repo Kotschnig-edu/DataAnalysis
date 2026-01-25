@@ -12,12 +12,12 @@
 
 \title{Data Analysis Final Assignment Report}
 \author{% 
-  Team: TEAMNAME\\ 
-  Author Name 1
+  Team: Analog Avengers\\ 
+  Eingang Fabian
   \And
-  Author Name 2 
+  Kotschnig Thomas
   \And 
-  Author Name 3 
+  Krenn Matthias 
   }
 
 \date{}
@@ -32,17 +32,17 @@
 \section{Contributions}
 \textit{Clearly state each team member's specific contributions. Be concrete.}
 \begin{itemize}[leftmargin=*]
-    \item Member 1:
+    \item Eingang Fabian:
     \begin{itemize}
         \item Dataset selection and acquisition
         \item Data quality analysis and preprocessing pipeline
     \end{itemize}
-    \item Member 2:
+    \item Kotschnig Thomas:
     \begin{itemize}
         \item Visualizations and EDA
         \item Probability analysis tasks
     \end{itemize}
-    \item Member 3:
+    \item Krenn Matthias:
     \begin{itemize}
         \item Regression modeling and interpretation
         \item Report writing and figure polishing
@@ -51,17 +51,12 @@
 
 \section{Dataset Description}
 \begin{itemize}[leftmargin=*]
-    \item Dataset name and source (Kaggle, Hugging Face, Westermo tests, etc.):
-    \item Why it is suitable for time-series analysis:
-    \item Time period covered and sampling frequency:
-    \item Key variables analyzed (signals, sensors, physical quantities):
-    \item Size and structure:
-    \begin{itemize}
-        \item Number of observations (rows):
-        \item Number of features (columns):
-        \item Target variable(s) if any:
-    \end{itemize}
-    \item Missing data summary:
+    \item "Bike sales in Europe" from https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
+    \item It has more than 100k entries of sales data from different countries. Streching from 2011 to 2016, with a daily sampling frequency.
+    \item Key variables analyzed: unit price, unit cost, date, order quantity, customer age, product type
+    \item Shape: 113036 rows x 18 columns
+    \item No missing data, however, the entry of some dates is missing completely. 
+    This resolves in no missing data, but inconsistent time series. There is only one bigger gap, therefore we decided 
     \item Any known limitations or caveats:
 \end{itemize}
 
