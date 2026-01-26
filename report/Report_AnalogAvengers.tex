@@ -7,6 +7,7 @@
 \usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage{xcolor}
+\usepackage{float}
 
 \geometry{a4paper, margin=1in}
 
@@ -37,7 +38,7 @@
 \begin{itemize}[leftmargin=*]
     \item "Bike sales in Europe" from https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
     \item It has more than 100k entries of sales data from different countries. Streching from 2011 to 2016, with a daily sampling frequency.
-    \item Key variables analyzed: unit price, unit cost, profit, cost, revenue, date, order quantity, customer age, product category, product
+    \item Key variables analyzed: customer age, order quantity, unit cost, unit price, profit, cost, revenue
     \item Shape: 113036 rows x 18 columns
     \item No missing data, however, the entry of some dates is missing completely. 
     This resolves in no missing data, but inconsistent time series. 
@@ -100,84 +101,163 @@ Canada         & 7935738  & 559.72 & 14178 & 3717296  & 262.19 & 192259 & 13.56 
 
 
 \subsection{Original data quality analysis including visualization}
-\begin{itemize}[leftmargin=*]
-    \item Missingness patterns (counts, heatmap, timeline gaps):
-    \item Outliers and suspicious values (plots and rule used):
-    \item Consistency checks (timestamps order, duplicates, impossible values):
-\end{itemize}
+There are no missing data in our dataset. This is why we did not add any visualization of this parameter. 
+    However, there is a timeline gap visible in the figure below. 
 
-% \begin{figure}[ht]
-% \centering
-% \begin{minipage}{0.48\textwidth}
-%     \centering
-%     \includegraphics[width=\linewidth]{./figures/3_2_boxplots.png}
-%     \caption{Caption for left image}
-% \end{minipage}\hfill
-% \begin{minipage}{0.48\textwidth}
-%     \centering
-%     \includegraphics[width=\linewidth]{figure2}
-%     \caption{Caption for right image}
-% \end{minipage}
-% \end{figure}
-
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{./figures/3_2_boxplots.png}
-\caption{Your figure caption}
-\label{fig:your_label}
+\includegraphics[width=0.8\textwidth]{./figures/3_2_consistency.png}
+\caption{Consistency checks in time series and comparison of revenue before and after preprocessing}
+\label{fig:consistency}
 \end{figure}
 
+Outliers have been identified via IQR method seen in the figure below, but 
+they have not been removed. This is because we wanted this data in the dataset 
+for better and full analysis. Otherwise the dataset would have lost too much information.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/3_2_boxplots.png}
+\caption{IQR applied on some key variables to identify outliers.}
+\label{fig:boxplots}
+\end{figure}
 
 
 \subsection{Data preprocessing}
 \begin{itemize}[leftmargin=*]
-    \item Cleaning steps performed:
-    \item Missing-value treatment (drop, impute, interpolate, forward fill, etc.):
-    \item Outlier handling (range, threshold, IQR, percentile, justify choice):
-    \item Feature engineering (e.g., scaling/normalization, log):
-    \item Final dataset shape after preprocessing:
+    \item Cleaning steps performed: Duplicates have been dropped.
+    \item Missing-value treatment: No missing values were present in the dataset, therefore no treatment was necessary.
+    \item Outlier handling: Outliers identified via IQR method (1.5 $\times$ IQR threshold) but intentionally retained. Justification: These extreme values contain valuable business insights (high-value transactions, unusual market events) that would be lost if removed.
+    \item Feature engineering: \\Time-based features added: DayOfWeek, DayOfWeek\_Name, WeekOfYear, Quarter, IsWeekend\\ Financial features created: Profit\_Margin, Avg\_Unit\_Profit, High-value flag
+    \item Final dataset shape after preprocessing: (8 new features added, no rows removed) \\ Original 113,036 rows $\times$ 18 columns $\rightarrow$ Cleaned 113,036 rows $\times$ 26 columns 
 \end{itemize}
 
 \subsection{Preprocessed vs original data visual analysis}
-\begin{itemize}[leftmargin=*]
-    \item Before vs after comparison plots (at least 2 to 3 key variables):
-    \item What improved and what trade-offs exist:
-\end{itemize}
+The accuracy of the dataset improved by dropping the duplicates. 
+A trade-off would be the possible removal of relevant data (no real duplicate).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/3_3_comparison.png}
+\caption{Comparison of key sales values due to the removal of 1000 duplicates.}
+\label{fig:comparison}
+\end{figure}
 
 \section{Task 2. Visualization and Exploratory Analysis}
 
 \subsection{Time series visualizations}
-\begin{itemize}[leftmargin=*]
-    \item Plot of main variable(s) over time:
-    \item Annotations for notable events or pattern shifts (if applicable):
-\end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{./figures/4_1_timeseries.png }
+\caption{Time series visualization of sales over time.}
+\label{fig:time_series}
+\end{figure}
 
 \subsection{Distribution analysis with histograms}
-\begin{itemize}[leftmargin=*]
-    \item Histograms for key numeric variables:
-    \item Notes on skewness, heavy tails, multi-modality:
-\end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/4_2_histograms.png}
+\caption{Histograms of key numeric variables showing distribution shapes.}
+\label{fig:histograms}
+\end{figure}
+
+\textbf{Order Quantity:} Nearly symmetric distribution (skewness: 0.378) with light tails, indicating values are concentrated near the center with fewer extreme outliers. The bimodal pattern suggests two distinct purchasing behaviors.
+
+\textbf{Customer Age:} Right-skewed distribution (skewness: 0.524) with normal-like tails. The multimodal pattern reflects age clustering across different customer segments. Mean age of 35.92 years exceeds the median (35.00), confirming right skew with older customers in the tail.
+
+\textbf{Profit Margin:} Left-skewed distribution (skewness: -0.856) with normal-like tails, indicating most transactions cluster at higher profit margins with a tail toward lower margins. The multimodal pattern suggests distinct profit tiers based on product categories.
+
+% \begin{table}[ht]
+% \caption{Distribution Characteristics Summary}
+% \centering
+% \scriptsize
+% \setlength{\tabcolsep}{6pt}
+% \renewcommand{\arraystretch}{1.0}
+% \begin{tabular}{|l|c|c|c|}
+% \hline
+% \textbf{Variable} & \textbf{Order Quantity} & \textbf{Customer Age} & \textbf{Profit Margin} \\
+% \hline
+% \textbf{Skewness} & 0.378 (Symmetric) & 0.524 (Right) & -0.856 (Left) \\
+% \textbf{Kurtosis} & -1.232 (Light tails) & -0.123 (Normal) & -0.058 (Normal) \\
+% \textbf{Modality} & Bimodal & Multimodal & Multimodal \\
+% \textbf{Mean} & 11.90 & 35.92 & 47.21 \\
+% \textbf{Median} & 10.00 & 35.00 & 52.63 \\
+% \textbf{Range} & 1--32 & 17--87 & -3.70--75.00 \\
+% \hline
+% \end{tabular}
+% \end{table}
+
+
 
 \subsection{Correlation analysis and heatmaps}
-\begin{itemize}[leftmargin=*]
-    \item Correlation type used (Pearson or Spearman) and why:
-    \item Heatmap and top correlated pairs with short interpretation:
-\end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/4_3_correlation.png}
+\caption{Correlation heatmap of key numeric variables.}
+\label{fig:correlation}
+\end{figure}
 
-\subsection{Daily pattern analysis}
-\begin{itemize}[leftmargin=*]
-    \item Aggregation method (hourly means, day-of-week, rolling averages):
-    \item Plots showing daily cycles or weekday-weekend differences:
-    \item What patterns are stable vs noisy:
-\end{itemize}
+Both correlation types have been calculated.
+Both types show the same strongest correlations. Those correlations 
+are between the financial variables revenue, cost and profit. That makes sense, 
+due to higher revenue leading to higher profit. Or higher costs also lead to higher revenue.
+
+
+\subsection{Monthly pattern analysis}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{./figures/4_4_pattern.png}
+\caption{Monthly pattern analysis of sales.}
+\label{fig:pattern}
+\end{figure}
+
+Our dataset doesnt provide any timestamp data for the sales. Therefore, it was grouped into monthly data and reviewed over the whole year. 
+The data of every month was then averaged over the years. It is very interesting to see the strong seasonal patterns of bike sales.
+Our dataset shows almost identical sales on the weekend compared to the weekdays. This shows that the shop was also open on weekends. 
+Which is very unusual for euopean shops. Therefore, it has to be an online shop.
+It was interesting to see a deviation in customer age depending on the day of the week.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{./figures/4_4_pattern_week.png}
+\caption{Weekday pattern analysis of sales.}
+\label{fig:pattern_week}
+\end{figure}
+
 
 \subsection{Summary of observed patterns, similar to True/False questions}
-\textit{Write short, testable statements and answer them based on evidence. Example format below.}
-\begin{itemize}[leftmargin=*]
-    \item Statement 1 (True or False): \textbf{...}. Evidence: ...
-    \item Statement 2 (True or False): \textbf{...}. Evidence: ...
-    \item Statement 3 (True or False): \textbf{...}. Evidence: ...
-\end{itemize}
+
+\begin{enumerate}[leftmargin=*]
+    \item \underline{Revenue shows a positive long-term trend over the dataset period} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
+    \begin{itemize}[leftmargin=2em]
+        \item Evidence: 90-day MA grew 308.2\% from start to end
+    \end{itemize}
+    
+    \item \underline{Q4 (Oct-Dec) shows significantly higher sales than other quarters} \hspace*{\fill} \textcolor{red}{\textbf{FALSE}}
+    \begin{itemize}[leftmargin=2em]
+        \item Evidence: Q4 revenue is not higher than the average of other quarters
+    \end{itemize}
+    
+    \item \underline{Revenue and Profit are strongly positively correlated (r > 0.8)} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
+    \begin{itemize}[leftmargin=2em]
+        \item Evidence: Pearson r = 0.957
+    \end{itemize}
+    
+    \item \underline{Customer age has minimal impact on transaction revenue} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
+    \begin{itemize}[leftmargin=2em]
+        \item Evidence: Age-Revenue correlation r = -0.009
+    \end{itemize}
+    
+    \item \underline{Friday is the best performing day of the week} \hspace*{\fill} \textcolor{red}{\textbf{FALSE}}
+    \begin{itemize}[leftmargin=2em]
+        \item Evidence: Best day: Wednesday, worst: Thursday (5.2\% difference)
+    \end{itemize}
+    
+    \item \underline{December shows the highest monthly average revenue} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
+    \begin{itemize}[leftmargin=2em]
+        \item Evidence: Best month: Dec, worst: Oct
+    \end{itemize}
+\end{enumerate}
 
 \section{Task 3. Probability Analysis}
 
