@@ -8,6 +8,7 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{soul}
 
 \geometry{a4paper, margin=1in}
 
@@ -238,7 +239,7 @@ It was interesting to see a deviation in customer age depending on the day of th
         \item Evidence: Q4 revenue is not higher than the average of other quarters
     \end{itemize}
     
-    \item \underline{Revenue and Profit are strongly positively correlated (r > 0.8)} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
+    \item \underline{Revenue and Profit are strongly positively correlated (r \textgreater 0.8)} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
     \begin{itemize}[leftmargin=2em]
         \item Evidence: Pearson r = 0.957
     \end{itemize}
@@ -262,17 +263,28 @@ It was interesting to see a deviation in customer age depending on the day of th
 \section{Task 3. Probability Analysis}
 
 \subsection{Threshold-based probability estimation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{./figures/5_1_threshold_prob.png}
+\caption{Threshold-based probability estimation visualization.}
+\label{fig:threshold_prob}
+\end{figure}
+The three thresholds chosen are:
 \begin{itemize}[leftmargin=*]
-    \item Define threshold(s) and justify choice:
-    \item Estimate probabilities of exceeding thresholds:
-    \item Visual support (e.g., empirical CDF, bar plot, timeline highlights):
+    \item High value transaction $\rightarrow$ 75\% was used as threshold
+    \item Order quantity $\rightarrow$ everything above 10 units was considered high
+    \item High profit transaction $\rightarrow$ mean profit value was used as threshold
 \end{itemize}
 
 \subsection{Cross tabulation analysis}
-\begin{itemize}[leftmargin=*]
-    \item Define two categorical variables (or binned numeric variables):
-    \item Present contingency table and interpret key cells:
-\end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{./figures/5_2_cross_tab.png}
+\caption{Cross tabulation analysis visualization.}
+\label{fig:cross_tab}
+\end{figure}
+\hl{should we add a description?}
 
 \subsection{Conditional probability analysis}
 \begin{itemize}[leftmargin=*]
@@ -280,6 +292,7 @@ It was interesting to see a deviation in customer age depending on the day of th
     \item Compute and interpret $P(A)$, $P(B)$, $P(A \mid B)$, $P(B \mid A)$:
     \item Include at least one meaningful comparison and conclusion:
 \end{itemize}
+\hl{I have no idea!}
 
 \subsection{Summary of observations from each probability task}
 \begin{itemize}[leftmargin=*]
