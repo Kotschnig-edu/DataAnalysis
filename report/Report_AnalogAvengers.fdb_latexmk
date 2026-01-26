@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1769459631.07803 "d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex" "Report_AnalogAvengers.pdf" "Report_AnalogAvengers" 1769459635.54817 2
+["pdflatex"] 1769468806.53058 "d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex" "Report_AnalogAvengers.pdf" "Report_AnalogAvengers" 1769468811.01809 2
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769459626 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/matth/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1769333066 12668 7848fe05006da2fc68cc36fb32132f96 ""
   "C:/Users/matth/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769332936 13333487 b64b86111829dfdaa3cc6cf5cae7dcd9 ""
@@ -90,10 +90,10 @@
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/matth/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Report_AnalogAvengers.aux" 1769459634 7074 2a1171b3bf2858263321b9882e55a7b9 "pdflatex"
-  "Report_AnalogAvengers.out" 1769459634 6604 38c40610744da172f87efdb8a94ddd1e "pdflatex"
-  "Report_AnalogAvengers.tex" 1769459611 15565 2621f22bf9497c06ec6507b483407fd2 ""
-  "d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex" 1769459611 15565 2621f22bf9497c06ec6507b483407fd2 ""
+  "Report_AnalogAvengers.aux" 1769468810 7774 7f0176ffb831b31dee492c047d3f6e5c "pdflatex"
+  "Report_AnalogAvengers.out" 1769468810 6604 38c40610744da172f87efdb8a94ddd1e "pdflatex"
+  "Report_AnalogAvengers.tex" 1769468799 17153 149beaa69f32887a8f48652f8a566110 ""
+  "d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex" 1769468799 17153 149beaa69f32887a8f48652f8a566110 ""
   "figures/3_2_boxplots.png" 1769451263 37828 8ee11bbd5d7f2971d14c792299d16f77 ""
   "figures/3_2_consistency.png" 1769450276 102687 da7177c320a8a0d641bdaa3da536f640 ""
   "figures/3_3_comparison.png" 1769453733 42268 82328487e17622bd05360fcb4f963493 ""
@@ -104,6 +104,9 @@
   "figures/4_4_pattern_week.png" 1769457527 124903 4c70d84db4850658ce824ea7ef84ac16 ""
   "figures/5_1_threshold_prob.png" 1769458859 64816 1c2cf629dd7b8dcc7b653c8d786fa082 ""
   "figures/5_2_cross_tab.png" 1769458913 70081 130bfc45b8c5078e2bd147c412de34e3 ""
+  "figures/5_3_conditional_prob.png" 1769466627 28021 12df717faaf84ad0a83bf5c906e6bd48 ""
+  "figures/6_1_LLN.png" 1769467638 37378 d7140bc3a27ae5ef45239ec542479cd8 ""
+  "figures/6_2_CLT.png" 1769468410 97607 59bee408926adfe928cbd8beb59381bc ""
   (generated)
   "Report_AnalogAvengers.aux"
   "Report_AnalogAvengers.log"

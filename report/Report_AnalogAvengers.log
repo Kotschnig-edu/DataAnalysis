@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  26 JAN 2026 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  27 JAN 2026 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -541,17 +541,54 @@ File: ./figures/5_2_cross_tab.png Graphic file (type png)
 <use ./figures/5_2_cross_tab.png>
 Package pdftex.def Info: ./figures/5_2_cross_tab.png  used on input line 283.
 (pdftex.def)             Requested size: 443.9066pt x 169.18787pt.
- [6
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.293     \item I
-                 nclude at least one meaningful comparison and conclusion:
+l.296     \item E
+                 vents: $A$ = Customer age group, $B$ = Order quantity
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.293     \item I
-                 nclude at least one meaningful comparison and conclusion: <./figures/5_1_threshold_prob.png> <./figures/5_2_cross_tab.png>] [7] [8] (Report_AnalogAvengers.aux)
+l.296     \item E
+                 vents: $A$ = Customer age group, $B$ = Order quantity <./figures/5_1_threshold_prob.png> <./figures/5_2_cross_tab.png>]
+<./figures/5_3_conditional_prob.png, id=95, 496.4949pt x 498.663pt>
+File: ./figures/5_3_conditional_prob.png Graphic file (type png)
+<use ./figures/5_3_conditional_prob.png>
+Package pdftex.def Info: ./figures/5_3_conditional_prob.png  used on input line 302.
+(pdftex.def)             Requested size: 226.48395pt x 227.47029pt.
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.332 
+       <./figures/5_3_conditional_prob.png>]
+<./figures/6_1_LLN.png, id=105, 738.5994pt x 278.9622pt>
+File: ./figures/6_1_LLN.png Graphic file (type png)
+<use ./figures/6_1_LLN.png>
+Package pdftex.def Info: ./figures/6_1_LLN.png  used on input line 335.
+(pdftex.def)             Requested size: 407.66833pt x 153.97028pt.
+<./figures/6_2_CLT.png, id=106, 1293.633pt x 357.7365pt>
+File: ./figures/6_2_CLT.png Graphic file (type png)
+<use ./figures/6_2_CLT.png>
+Package pdftex.def Info: ./figures/6_2_CLT.png  used on input line 349.
+(pdftex.def)             Requested size: 407.66833pt x 112.73125pt.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.372     \item V
+                 alidation method (holdout, time-series split, etc.):
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.372     \item V
+                 alidation method (holdout, time-series split, etc.): <./figures/6_1_LLN.png> <./figures/6_2_CLT.png>] [9] (Report_AnalogAvengers.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -570,17 +607,17 @@ Package rerunfilecheck Info: Checksums for `Report_AnalogAvengers.out':
 (rerunfilecheck)             After:  38C40610744DA172F87EFDB8A94DDD1E;6604.
  ) 
 Here is how much of TeX's memory you used:
- 10985 strings out of 467871
- 172071 string characters out of 5418376
+ 11013 strings out of 467871
+ 172820 string characters out of 5418376
  619903 words of memory out of 5000000
- 39680 multiletter control sequences out of 15000+600000
+ 39704 multiletter control sequences out of 15000+600000
  635148 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,408b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (8 pages, 1095472 bytes).
+Output written on Report_AnalogAvengers.pdf (9 pages, 1245827 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -284,38 +284,72 @@ The three thresholds chosen are:
 \caption{Cross tabulation analysis visualization.}
 \label{fig:cross_tab}
 \end{figure}
-\hl{should we add a description?}
+It is interesting to see that the product category is not not influenced by the 
+customer age. However, in the right cross tab it is visible that in canada the 
+amount of bike sales is much lower than in the rest of the countries. But the 
+accessories are sold way more often in canada than in the other countries.
 
 \subsection{Conditional probability analysis}
+Question: Which age group is most likely to place large orders?\\
+
 \begin{itemize}[leftmargin=*]
-    \item Define events $A$ and $B$:
-    \item Compute and interpret $P(A)$, $P(B)$, $P(A \mid B)$, $P(B \mid A)$:
-    \item Include at least one meaningful comparison and conclusion:
+    \item Events: $A$ = Customer age group, $B$ = Order quantity  
+    \item \hl{Compute and interpret $P(A)$, $P(B)$, $P(A \mid B)$, $P(B \mid A)$:}
+    \item \hl{Include at least one meaningful comparison and conclusion:}
 \end{itemize}
-\hl{I have no idea!}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{./figures/5_3_conditional_prob.png}
+\caption{Conditional probability analysis visualization.}
+\label{fig:conditional_prob}
+\end{figure}
+The conclusion of this analysis is that customers above 45 years are more likely
+to place large orders (more than 10 units).
 
 \subsection{Summary of observations from each probability task}
 \begin{itemize}[leftmargin=*]
-    \item Key takeaway from threshold probability:
-    \item Key takeaway from crosstab:
-    \item Key takeaway from conditional probability:
+    \item Key takeaway from threshold probability: Choosing thresholds requires 
+    care—too high or low can misrepresent risk; advantage is simplicity and 
+    clear segmentation, but it ignores interactions beyond the set cutoffs.
+    \item Key takeaway from crosstab: Useful for detecting dependencies between 
+    categorical variables, but small sample sizes can give misleading 
+    p-values; it’s easy to interpret but limited to pairwise relationships.
+    \item Key takeaway from conditional probability: Shows how one event affects 
+    another, highlighting trends; risk lies in misinterpreting correlation as 
+    causation, though it provides actionable insights for targeting specific segments.
 \end{itemize}
+\hl{check this again}
+
 
 \section{Task 4. Statistical Theory Applications}
 
 \subsection{Law of Large Numbers (LLN) demonstration}
-\begin{itemize}[leftmargin=*]
-    \item Variable chosen and why it makes sense:
-    \item Experiment: show sample mean as $n$ increases:
-    \item Plot and short interpretation:
-\end{itemize}
+For the analysis the revenue was chosen, because it make a lot of sense for 
+financial analysis. Knowing the mean revenue of 100 sales for example and how 
+fast is converges to the sample mean $n$. 
+It is visible that the sample mean converges to the population mean with 
+increasing sample size.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/6_1_LLN.png}
+\caption{LLN demonstration visualization.}
+\label{fig:LLN}
+\end{figure}
+
 
 \subsection{Central Limit Theorem (CLT) application}
 \begin{itemize}[leftmargin=*]
-    \item Sampling procedure (sample size, number of trials, with or without replacement):
-    \item Show distribution of sample means for increasing $n$:
-    \item Plot(s): histogram(s) of sample means and comparison to normal shape:
+    \item \hl{Sampling procedure (sample size, number of trials, 
+    with or without replacement):}
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/6_2_CLT.png}
+\caption{CLT demonstration visualization.}
+\label{fig:CLT}
+\end{figure}
 
 \subsection{Result interpretation}
 \begin{itemize}[leftmargin=*]
