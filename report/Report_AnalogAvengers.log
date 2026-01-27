@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  27 JAN 2026 00:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  27 JAN 2026 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -470,125 +470,151 @@ Package pdftex.def Info: ./figures/3_3_comparison.png  used on input line 142.
 <./figures/4_1_timeseries.png, id=38, 1148.3703pt x 570.933pt>
 File: ./figures/4_1_timeseries.png Graphic file (type png)
 <use ./figures/4_1_timeseries.png>
-Package pdftex.def Info: ./figures/4_1_timeseries.png  used on input line 152.
+Package pdftex.def Info: ./figures/4_1_timeseries.png  used on input line 159.
 (pdftex.def)             Requested size: 443.9066pt x 220.69412pt.
 <./figures/4_2_histograms.png, id=39, 1148.3703pt x 354.123pt>
 File: ./figures/4_2_histograms.png Graphic file (type png)
 <use ./figures/4_2_histograms.png>
-Package pdftex.def Info: ./figures/4_2_histograms.png  used on input line 160.
+Package pdftex.def Info: ./figures/4_2_histograms.png  used on input line 167.
 (pdftex.def)             Requested size: 407.66833pt x 125.71184pt.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.164 
+l.171 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.164 
+l.171 
        <./figures/3_3_comparison.png> <./figures/4_1_timeseries.png>]
 <./figures/4_3_correlation.png, id=51, 1055.142pt x 434.3427pt>
 File: ./figures/4_3_correlation.png Graphic file (type png)
 <use ./figures/4_3_correlation.png>
-Package pdftex.def Info: ./figures/4_3_correlation.png  used on input line 196.
+Package pdftex.def Info: ./figures/4_3_correlation.png  used on input line 182.
 (pdftex.def)             Requested size: 407.66833pt x 167.81561pt.
 <./figures/4_4_pattern.png, id=52, 1293.633pt x 354.123pt>
 File: ./figures/4_4_pattern.png Graphic file (type png)
 <use ./figures/4_4_pattern.png>
-Package pdftex.def Info: ./figures/4_4_pattern.png  used on input line 210.
+Package pdftex.def Info: ./figures/4_4_pattern.png  used on input line 196.
 (pdftex.def)             Requested size: 443.9066pt x 121.51334pt.
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.214 
+l.200 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.214 
+l.200 
        <./figures/4_2_histograms.png> <./figures/4_3_correlation.png>]
 <./figures/4_4_pattern_week.png, id=64, 1293.633pt x 353.4003pt>
 File: ./figures/4_4_pattern_week.png Graphic file (type png)
 <use ./figures/4_4_pattern_week.png>
-Package pdftex.def Info: ./figures/4_4_pattern_week.png  used on input line 223.
+Package pdftex.def Info: ./figures/4_4_pattern_week.png  used on input line 209.
 (pdftex.def)             Requested size: 443.9066pt x 121.26535pt.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 242.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 228.
  (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 242.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 228.
+<./figures/5_1_threshold_prob.png, id=65, 1076.823pt x 353.4003pt>
+File: ./figures/5_1_threshold_prob.png Graphic file (type png)
+<use ./figures/5_1_threshold_prob.png>
+Package pdftex.def Info: ./figures/5_1_threshold_prob.png  used on input line 257.
+(pdftex.def)             Requested size: 443.9066pt x 145.68234pt.
  [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260     \end{itemize}
-                       
+l.261 T
+       he three thresholds chosen are:
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260     \end{itemize}
-                        <./figures/4_4_pattern.png> <./figures/4_4_pattern_week.png>]
-<./figures/5_1_threshold_prob.png, id=81, 1076.823pt x 353.4003pt>
-File: ./figures/5_1_threshold_prob.png Graphic file (type png)
-<use ./figures/5_1_threshold_prob.png>
-Package pdftex.def Info: ./figures/5_1_threshold_prob.png  used on input line 269.
-(pdftex.def)             Requested size: 443.9066pt x 145.68234pt.
+l.261 T
+       he three thresholds chosen are: <./figures/4_4_pattern.png> <./figures/4_4_pattern_week.png>]
 <./figures/5_2_cross_tab.png, id=82, 1118.7396pt x 426.393pt>
 File: ./figures/5_2_cross_tab.png Graphic file (type png)
 <use ./figures/5_2_cross_tab.png>
-Package pdftex.def Info: ./figures/5_2_cross_tab.png  used on input line 283.
+Package pdftex.def Info: ./figures/5_2_cross_tab.png  used on input line 271.
 (pdftex.def)             Requested size: 443.9066pt x 169.18787pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-
- []
-
-[6
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.296     \item E
-                 vents: $A$ = Customer age group, $B$ = Order quantity
+l.287 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.296     \item E
-                 vents: $A$ = Customer age group, $B$ = Order quantity <./figures/5_1_threshold_prob.png> <./figures/5_2_cross_tab.png>]
-<./figures/5_3_conditional_prob.png, id=95, 496.4949pt x 498.663pt>
+l.287 \newpage
+               <./figures/5_1_threshold_prob.png> <./figures/5_2_cross_tab.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+<./figures/5_3_conditional_prob.png, id=94, 496.4949pt x 498.663pt>
 File: ./figures/5_3_conditional_prob.png Graphic file (type png)
 <use ./figures/5_3_conditional_prob.png>
-Package pdftex.def Info: ./figures/5_3_conditional_prob.png  used on input line 302.
+Package pdftex.def Info: ./figures/5_3_conditional_prob.png  used on input line 298.
 (pdftex.def)             Requested size: 226.48395pt x 227.47029pt.
- [7
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.332 
-       <./figures/5_3_conditional_prob.png>]
-<./figures/6_1_LLN.png, id=105, 738.5994pt x 278.9622pt>
+l.319 \newpage
+               <./figures/5_3_conditional_prob.png>]
+<./figures/6_1_LLN.png, id=104, 738.5994pt x 278.9622pt>
 File: ./figures/6_1_LLN.png Graphic file (type png)
 <use ./figures/6_1_LLN.png>
-Package pdftex.def Info: ./figures/6_1_LLN.png  used on input line 335.
+Package pdftex.def Info: ./figures/6_1_LLN.png  used on input line 331.
 (pdftex.def)             Requested size: 407.66833pt x 153.97028pt.
-<./figures/6_2_CLT.png, id=106, 1293.633pt x 357.7365pt>
+<./figures/6_2_CLT.png, id=105, 1292.9103pt x 357.7365pt>
 File: ./figures/6_2_CLT.png Graphic file (type png)
 <use ./figures/6_2_CLT.png>
-Package pdftex.def Info: ./figures/6_2_CLT.png  used on input line 349.
-(pdftex.def)             Requested size: 407.66833pt x 112.73125pt.
+Package pdftex.def Info: ./figures/6_2_CLT.png  used on input line 343.
+(pdftex.def)             Requested size: 407.66833pt x 112.79675pt.
  [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.372     \item V
-                 alidation method (holdout, time-series split, etc.):
+l.372 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.372     \item V
-                 alidation method (holdout, time-series split, etc.): <./figures/6_1_LLN.png> <./figures/6_2_CLT.png>] [9] (Report_AnalogAvengers.aux)
+l.372 \newpage
+               <./figures/6_1_LLN.png> <./figures/6_2_CLT.png>]
+
+d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:379: LaTeX Error: Unicode character 𝑦 (U+1D466)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 𝑦
+          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:381: LaTeX Error: Unicode character 𝑋 (U+1D44B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 𝑋
+          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[9] [10] (Report_AnalogAvengers.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -607,17 +633,17 @@ Package rerunfilecheck Info: Checksums for `Report_AnalogAvengers.out':
 (rerunfilecheck)             After:  38C40610744DA172F87EFDB8A94DDD1E;6604.
  ) 
 Here is how much of TeX's memory you used:
- 11013 strings out of 467871
- 172820 string characters out of 5418376
+ 11016 strings out of 467871
+ 172843 string characters out of 5418376
  619903 words of memory out of 5000000
- 39704 multiletter control sequences out of 15000+600000
+ 39707 multiletter control sequences out of 15000+600000
  635148 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,408b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,408b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (9 pages, 1245827 bytes).
+Output written on Report_AnalogAvengers.pdf (10 pages, 1245210 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

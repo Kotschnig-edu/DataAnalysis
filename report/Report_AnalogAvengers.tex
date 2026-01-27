@@ -144,6 +144,13 @@ A trade-off would be the possible removal of relevant data (no real duplicate).
 \label{fig:comparison}
 \end{figure}
 
+
+
+
+
+
+
+
 \section{Task 2. Visualization and Exploratory Analysis}
 
 \subsection{Time series visualizations}
@@ -167,27 +174,6 @@ A trade-off would be the possible removal of relevant data (no real duplicate).
 \textbf{Customer Age:} Right-skewed distribution (skewness: 0.524) with normal-like tails. The multimodal pattern reflects age clustering across different customer segments. Mean age of 35.92 years exceeds the median (35.00), confirming right skew with older customers in the tail.
 
 \textbf{Profit Margin:} Left-skewed distribution (skewness: -0.856) with normal-like tails, indicating most transactions cluster at higher profit margins with a tail toward lower margins. The multimodal pattern suggests distinct profit tiers based on product categories.
-
-% \begin{table}[ht]
-% \caption{Distribution Characteristics Summary}
-% \centering
-% \scriptsize
-% \setlength{\tabcolsep}{6pt}
-% \renewcommand{\arraystretch}{1.0}
-% \begin{tabular}{|l|c|c|c|}
-% \hline
-% \textbf{Variable} & \textbf{Order Quantity} & \textbf{Customer Age} & \textbf{Profit Margin} \\
-% \hline
-% \textbf{Skewness} & 0.378 (Symmetric) & 0.524 (Right) & -0.856 (Left) \\
-% \textbf{Kurtosis} & -1.232 (Light tails) & -0.123 (Normal) & -0.058 (Normal) \\
-% \textbf{Modality} & Bimodal & Multimodal & Multimodal \\
-% \textbf{Mean} & 11.90 & 35.92 & 47.21 \\
-% \textbf{Median} & 10.00 & 35.00 & 52.63 \\
-% \textbf{Range} & 1--32 & 17--87 & -3.70--75.00 \\
-% \hline
-% \end{tabular}
-% \end{table}
-
 
 
 \subsection{Correlation analysis and heatmaps}
@@ -249,16 +235,18 @@ It was interesting to see a deviation in customer age depending on the day of th
         \item Evidence: Age-Revenue correlation r = -0.009
     \end{itemize}
     
-    \item \underline{Friday is the best performing day of the week} \hspace*{\fill} \textcolor{red}{\textbf{FALSE}}
-    \begin{itemize}[leftmargin=2em]
-        \item Evidence: Best day: Wednesday, worst: Thursday (5.2\% difference)
-    \end{itemize}
-    
     \item \underline{December shows the highest monthly average revenue} \hspace*{\fill} \textcolor{green}{\textbf{TRUE}}
     \begin{itemize}[leftmargin=2em]
         \item Evidence: Best month: Dec, worst: Oct
     \end{itemize}
 \end{enumerate}
+
+
+
+
+
+
+
 
 \section{Task 3. Probability Analysis}
 
@@ -289,6 +277,14 @@ customer age. However, in the right cross tab it is visible that in canada the
 amount of bike sales is much lower than in the rest of the countries. But the 
 accessories are sold way more often in canada than in the other countries.
 
+
+
+
+
+
+
+
+\newpage
 \subsection{Conditional probability analysis}
 Question: Which age group is most likely to place large orders?\\
 
@@ -320,7 +316,7 @@ to place large orders (more than 10 units).
 \end{itemize}
 \hl{check this again}
 
-
+\newpage
 \section{Task 4. Statistical Theory Applications}
 
 \subsection{Law of Large Numbers (LLN) demonstration}
@@ -339,10 +335,8 @@ increasing sample size.
 
 
 \subsection{Central Limit Theorem (CLT) application}
-\begin{itemize}[leftmargin=*]
-    \item \hl{Sampling procedure (sample size, number of trials, 
-    with or without replacement):}
-\end{itemize}
+We used different sample sizes to show the CLT. Ranging from 10 to 500.
+For every sample size 2000 number of trials were performed with replacement.
 
 \begin{figure}[H]
 \centering
@@ -351,18 +345,41 @@ increasing sample size.
 \label{fig:CLT}
 \end{figure}
 
+\hl{löschen?}
 \subsection{Result interpretation}
 \begin{itemize}[leftmargin=*]
-    \item What LLN showed in your data context:
-    \item What CLT showed, and any deviations and why:
+    \item What LLN showed in your data context:\\
+That the sample mean of the revenue can be used as an mean value 
+for the average revenue per sale.
+    \item What CLT showed, and any deviations and why:\\
+The Central Limit Theorem is demonstrated by the sampling 
+distributions of the sample mean becoming increasingly normal 
+as sample size increases. For smaller sample sizes, slight 
+skewness is observed due to the underlying revenue distribution,
+ but this deviation decreases for larger samples. The standard 
+ error of the sample mean decreases at the theoretical 
+ rate \( \sigma / \sqrt{n} \), closely matching empirical estimates.
 \end{itemize}
 
+
+
+
+
+
+
+
+
+\newpage
 \section{Task 5. Regression Analysis}
 
 \subsection{Linear or Polynomial model selection}
 \begin{itemize}[leftmargin=*]
-    \item Define target $y$ and predictors $X$:
-    \item Motivation for linear vs polynomial:
+    \item Define target $y$ and predictors $X$:\\
+    The target variable 
+𝑦
+y is daily revenue, while the predictors 
+𝑋
+X are explanatory variables capturing temporal, operational, and demand-related effects.
     \item Any train-test split rationale (time-aware split if relevant):
 \end{itemize}
 
