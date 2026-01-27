@@ -380,7 +380,11 @@ skewness is observed due to the underlying revenue distribution,
 y is daily revenue, while the predictors 
 𝑋
 X are explanatory variables capturing temporal, operational, and demand-related effects.
-    \item Any train-test split rationale (time-aware split if relevant):
+    \item Compared Linear Regression vs Polynomial Regression (degree 2, captures non-linearity).
+    Selection based on test R² and overfitting gap. Simpler model preferred when performance is similar.
+    \item Time-based 80/20 split respects temporal ordering. StandardScaler 
+    applied for stable coefficient estimation. Both models evaluated on 
+    unseen future data.
 \end{itemize}
 
 \subsection{Model fitting and validation}
