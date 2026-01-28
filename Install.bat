@@ -12,4 +12,4 @@ call .venv\Scripts\activate.bat
 REM Install packages
 echo Installing packages...
 pip install uv
-uv pip install pandas numpy matplotlib seaborn ipykernel altair scipy
+uv pip install pandas numpy matplotlib seaborn ipykernel altair scipy scikit-learn
