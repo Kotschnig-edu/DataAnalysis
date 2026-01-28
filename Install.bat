@@ -3,9 +3,7 @@ py -3.10 --version >nul 2>&1
 if errorlevel 1 (
     echo Python 3.10 not found. Installing Python 3.10 via winget...
     winget install Python.Python.3.10 --silent --accept-source-agreements --accept-package-agreements
-    echo Please restart this script after Python 3.10 installation completes.
-    pause
-    exit /b
+    echo Python 3.10 installation completed. Continuing setup...
 )
 
 REM Check if .venv exists
@@ -24,4 +22,3 @@ REM Install packages
 echo Installing packages...
 pip install uv
 uv pip install pandas numpy matplotlib seaborn ipykernel altair scipy scikit-learn umap-learn
-pause
