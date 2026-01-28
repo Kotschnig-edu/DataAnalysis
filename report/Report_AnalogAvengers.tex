@@ -286,21 +286,25 @@ accessories are sold way more often in canada than in the other countries.
 
 \newpage
 \subsection{Conditional probability analysis}
-Question: Which age group is most likely to place large orders?\\
 
-\begin{itemize}[leftmargin=*]
-    \item Events: $A$ = Customer age group, $B$ = Order quantity  
-    \item \hl{Compute and interpret $P(A)$, $P(B)$, $P(A \mid B)$, $P(B \mid A)$:}
-    \item \hl{Include at least one meaningful comparison and conclusion:}
-\end{itemize}
+P(High-Value) = 24,93\%\\
+P(High-Value $|$ Bikes) = 80,79\%\\
+P(High-Value $|$ Canada) = 17,92\%\\
+\\
+P(High-Profit) = 49,84\%\\
+P(High-Profit $|$ Large Order) = 44,93\%\\
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{./figures/5_3_conditional_prob.png}
+\includegraphics[width=0.7\textwidth]{./figures/5_3_conditional_prob2.png}
 \caption{Conditional probability analysis visualization.}
 \label{fig:conditional_prob}
 \end{figure}
-The conclusion of this analysis is that customers above 45 years are more likely
-to place large orders (more than 10 units).
+Interesting! When a Bike is sold the probability that the Transaction is a high Value transaction 
+increases with the Factor of 3.24.When we compare the probability that a Transaction is a high 
+profit transaction to the probability that a transaction is a high profit transaction under the 
+condition that the order quantity is flagged with large order, we can see a decrease in the 
+Probability by the Factor 0.72.
+
 
 \subsection{Summary of observations from each probability task}
 \begin{itemize}[leftmargin=*]
@@ -314,7 +318,6 @@ to place large orders (more than 10 units).
     another, highlighting trends; risk lies in misinterpreting correlation as 
     causation, though it provides actionable insights for targeting specific segments.
 \end{itemize}
-\hl{check this again}
 
 \newpage
 \section{Task 4. Statistical Theory Applications}
@@ -345,7 +348,6 @@ For every sample size 2000 number of trials were performed with replacement.
 \label{fig:CLT}
 \end{figure}
 
-\hl{löschen?}
 \subsection{Result interpretation}
 \begin{itemize}[leftmargin=*]
     \item What LLN showed in your data context:\\
@@ -512,18 +514,22 @@ Profit\_Margin) and examine whether product categories form natural clusters.
 
 
 
-\section{Bonus Tasks}
-\begin{itemize}[leftmargin=*]
-    \item New dataset bonus (10): state why dataset is new and provide link:
-    \item Q-Q plot with explanation (5):
-    \begin{itemize}
-        \item Either for CLT sample means, or regression residuals:
-        \item Interpretation of deviations from normality:
-    \end{itemize}
-    \item Interactive visualizations (up to 10): describe tool used and what interactivity adds:
-    \item Cross-validation in regression (5): method used and how results compare to holdout:
-    \item Additional exploration (up to 20): clearly state extra tasks and value gained:
-\end{itemize}
+% \section{Bonus Tasks}
+% \begin{itemize}[leftmargin=*]
+%     \item New dataset bonus (10): state why dataset is new and provide link:
+%     \item Q-Q plot with explanation (5):
+%     \begin{itemize}
+%         \item Either for CLT sample means, or regression residuals:
+%         \item Interpretation of deviations from normality:
+%     \end{itemize}
+%     \item Interactive visualizations (up to 10): describe tool used and what interactivity adds:
+%     \item Cross-validation in regression (5): method used and how results compare to holdout:
+%     \item Additional exploration (up to 20): clearly state extra tasks and value gained:
+% \end{itemize}
+
+
+
+
 
 \section{Key Findings and Conclusions}
 \begin{itemize}[leftmargin=*]
@@ -532,15 +538,38 @@ Profit\_Margin) and examine whether product categories form natural clusters.
     \item Main findings from LLN and CLT:
     \item Main findings from regression:
     \item Limitations:
-    \item What you would do next if you had more time:
+    \item What you would do next if you had more time:\\
+We would investigate additional features that could improve the data analysis.
+Such as our feature engineering steps already showed, that new features can add a lot of value.
+We would investigate those new features and their impact on the analysis.
 \end{itemize}
+
+
+
+
+
 
 \section{Reproducibility Notes}
 \begin{itemize}[leftmargin=*]
     \item Exact dataset source link and version or download date:
     \item Key libraries used and versions (optional but recommended):
-    \item How to run the notebook end-to-end:
-\end{itemize}
+    \item How to run the notebook end-to-end:\\
+For running the notebook error free, we have created a “Install.bat” batch file. The batch file installs:
+	\begin{itemize}[leftmargin=*]
+        \item The recommended Python version for using the notbook.
+        \item The necessary packages.
+    \end{itemize}
+Important perquisite: \\
+\textbf{A windows system.}\\
+
+vspace{1em} \\
+Step-by-Step user guide:
+	\begin{enumerate}[leftmargin=*]
+        \item Clone the github repository: ‘git clone https://github.com/Kotschnig-edu/DataAnalysis.git’ 
+        \item Run the “Install.bat” file in the cloned repository.
+        \item Open the notebook and select the created python virtual environment called “.venv”
+        \item Run the cells of the notebook in the sequential order or press “Run all” in your programming environment.
+    \end{enumerate}
 
 % Optional
 % \section{References}
