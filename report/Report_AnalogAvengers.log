@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  28 JAN 2026 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  28 JAN 2026 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,46 +553,46 @@ l.372 \newpage
 <./figures/7_2_residuals.png, id=224, 1149.093pt x 714.7503pt>
 File: ./figures/7_2_residuals.png Graphic file (type png)
 <use ./figures/7_2_residuals.png>
-Package pdftex.def Info: ./figures/7_2_residuals.png  used on input line 427.
+Package pdftex.def Info: ./figures/7_2_residuals.png  used on input line 426.
 (pdftex.def)             Requested size: 430.31812pt x 267.6599pt.
  [9]
 <./figures/7_3_comparison.png, id=231, 714.7503pt x 426.393pt>
 File: ./figures/7_3_comparison.png Graphic file (type png)
 <use ./figures/7_3_comparison.png>
-Package pdftex.def Info: ./figures/7_3_comparison.png  used on input line 448.
+Package pdftex.def Info: ./figures/7_3_comparison.png  used on input line 447.
 (pdftex.def)             Requested size: 317.07614pt x 189.16197pt.
+<./figures/7_1_PCA.png, id=232, 1148.3703pt x 354.123pt>
+File: ./figures/7_1_PCA.png Graphic file (type png)
+<use ./figures/7_1_PCA.png>
+Package pdftex.def Info: ./figures/7_1_PCA.png  used on input line 463.
+(pdftex.def)             Requested size: 443.9066pt x 136.88622pt.
  [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452 
-       <./figures/7_2_residuals.png>]
-<./figures/7_1_PCA.png, id=238, 1148.3703pt x 354.123pt>
-File: ./figures/7_1_PCA.png Graphic file (type png)
-<use ./figures/7_1_PCA.png>
-Package pdftex.def Info: ./figures/7_1_PCA.png  used on input line 464.
-(pdftex.def)             Requested size: 443.9066pt x 136.88622pt.
-<./figures/7_1_PCA_UM.png, id=239, 1293.633pt x 372.1905pt>
-File: ./figures/7_1_PCA_UM.png Graphic file (type png)
-<use ./figures/7_1_PCA_UM.png>
-Package pdftex.def Info: ./figures/7_1_PCA_UM.png  used on input line 472.
-(pdftex.def)             Requested size: 443.9066pt x 127.713pt.
- [11
+l.467 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.491     \item Q
-                 -Q plot with explanation (5):
+l.467 
+       <./figures/7_2_residuals.png> <./figures/7_3_comparison.png>]
+<./figures/7_1_PCA_UM.png, id=240, 1293.633pt x 372.1905pt>
+File: ./figures/7_1_PCA_UM.png Graphic file (type png)
+<use ./figures/7_1_PCA_UM.png>
+Package pdftex.def Info: ./figures/7_1_PCA_UM.png  used on input line 471.
+(pdftex.def)             Requested size: 443.9066pt x 127.713pt.
+ [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.491     \item Q
-                 -Q plot with explanation (5):
+l.504     \item M
+                 ain findings from LLN and CLT:
 pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.491     \item Q
-                 -Q plot with explanation (5): <./figures/7_3_comparison.png> <./figures/7_1_PCA.png> <./figures/7_1_PCA_UM.png>] [12] (Report_AnalogAvengers.aux)
+l.504     \item M
+                 ain findings from LLN and CLT: <./figures/7_1_PCA.png> <./figures/7_1_PCA_UM.png>] [12] (Report_AnalogAvengers.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -609,7 +609,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,468b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\fabia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (12 pages, 1756713 bytes).
+Output written on Report_AnalogAvengers.pdf (12 pages, 1756588 bytes).
 PDF statistics:
  317 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)

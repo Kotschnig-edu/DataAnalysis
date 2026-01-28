@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1769631385.01201 "c:/DataAnalysis/report/Report_AnalogAvengers.tex" "Report_AnalogAvengers.pdf" "Report_AnalogAvengers" 1769631387.63563 0
+["pdflatex"] 1769632852.33825 "c:/DataAnalysis/report/Report_AnalogAvengers.tex" "Report_AnalogAvengers.pdf" "Report_AnalogAvengers" 1769632855.31097 0
   "C:/Users/fabia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769619761 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/fabia/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1769619766 12668 d47ef8dfb4248a10b2d0ce0aa2d35f1c ""
   "C:/Users/fabia/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769619707 13333487 9df5ec7e1f7e8068d1908ff9461ee491 ""
@@ -89,10 +89,10 @@
   "C:/Users/fabia/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/fabia/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/fabia/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Report_AnalogAvengers.aux" 1769631387 9393 0ffde64f73716eb7b3deda158ecb4a6c "pdflatex"
-  "Report_AnalogAvengers.out" 1769631387 7355 a0d58fbe6398c00c14a45b9e5ce02bfb "pdflatex"
-  "Report_AnalogAvengers.tex" 1769631384 22100 8882030655cc9be0d8b95c3072ca6395 ""
-  "c:/DataAnalysis/report/Report_AnalogAvengers.tex" 1769631384 22100 8882030655cc9be0d8b95c3072ca6395 ""
+  "Report_AnalogAvengers.aux" 1769632855 9393 488fc87c08e3179d14ab013c50f6ca57 "pdflatex"
+  "Report_AnalogAvengers.out" 1769632855 7355 a0d58fbe6398c00c14a45b9e5ce02bfb "pdflatex"
+  "Report_AnalogAvengers.tex" 1769632844 22015 cb4ce13850b3dbba6ba8d7b9910ddc20 ""
+  "c:/DataAnalysis/report/Report_AnalogAvengers.tex" 1769632844 22015 cb4ce13850b3dbba6ba8d7b9910ddc20 ""
   "figures/3_2_boxplots.png" 1769629048 37828 8ee11bbd5d7f2971d14c792299d16f77 ""
   "figures/3_2_consistency.png" 1769629048 102687 da7177c320a8a0d641bdaa3da536f640 ""
   "figures/3_3_comparison.png" 1769629048 42268 82328487e17622bd05360fcb4f963493 ""

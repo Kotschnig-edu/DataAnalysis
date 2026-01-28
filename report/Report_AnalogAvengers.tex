@@ -397,7 +397,7 @@ skewness is observed due to the underlying revenue distribution,
     to all numeric features for stable gradient descent and comparable coefficient magnitudes. 
     Categorical features (Top\_Category, Top\_Country) were one-hot encoded with the first 
     category dropped to avoid multicollinearity.
-    \item Validation method (holdout, time-series split, etc.): Time-based holdout split (80\% train, 20\% test) 
+    \item Validation method (holdout, time-series split, etc.): Time-based holdout split
     ensures the model is evaluated on genuinely unseen future data. This is critical for 
     time-series regression to avoid overly optimistic performance estimates.
     \item Metrics reported (RMSE, MAE, $R^2$) and why:
@@ -411,8 +411,7 @@ skewness is observed due to the underlying revenue distribution,
     Polynomial regression (degree 2) was selected due to marginally better test performance.
     \item Residual analysis (at least one plot recommended): Four diagnostic plots were created (Figure~\ref{fig:residuals}):
     \begin{itemize}
-        \item Residuals vs Predicted: Random scatter centered around zero with no funnel shape, 
-        indicating homoscedasticity (constant variance).
+        \item Residuals vs Predicted: Random scatter centered around zero with no funnel shape
         \item Q-Q Plot: Points closely follow the theoretical line with minor deviations 
         at the tails, confirming approximate normality of residuals.
         \item Residuals Over Time: No systematic trend or drift visible; variance appears 
