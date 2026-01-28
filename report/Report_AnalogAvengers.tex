@@ -457,26 +457,54 @@ skewness is observed due to the underlying revenue distribution,
 \section{Task 6. Dimensionality Reduction and Statistical Tests}
 
 \subsection{Dimensionality Reduction}
+Three dimensionality reduction techniques were applied to visualize the high-dimensional 
+sales data (Revenue, Profit, Cost, Order\_Quantity, Unit\_Cost, Unit\_Price, Customer\_Age, 
+Profit\_Margin) and examine whether product categories form natural clusters.
+
+\textbf{PCA Analysis (Figure~\ref{fig:PCA}):}
+\begin{itemize}[leftmargin=*]
+    \item Scree plot shows PC1 explains $\sim$60\% of variance, with PC1--PC2 together 
+    capturing $\sim$74\%.
+    \item Feature loadings reveal that Profit\_Margin dominates PC1, while Customer\_Age 
+    drives PC2. Financial variables (Revenue, Profit, Cost) load similarly on PC3.
+    \item PCA projection shows partial separation of Bikes (orange) from Accessories/Clothing, 
+    but the categories overlap substantially in linear space.
+\end{itemize}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.98\textwidth]{./figures/7_1_PCA.png}
-\caption{Variance, PCA and loading of data for each principle component.}
+\caption{Variance explained, PCA projection, and feature loadings for PC1--PC3.}
 \label{fig:PCA}
 \end{figure}
 
+\textbf{Method Comparison (Figure~\ref{fig:PCA_UM}):}
+\begin{itemize}[leftmargin=*]
+    \item PCA (linear): Shows global structure but the main cluster appears compressed 
+    due to outliers stretching the axis scale. Categories overlap substantially.
+    \item t-SNE and UMAP: Both non-linear methods produce similar results and show 
+    clearer separation between categories compared to PCA. Bikes (orange) form a 
+    distinct cluster, while Accessories and Clothing show partial overlap but are 
+    still distinguishable. This suggests non-linear methods better capture the 
+    underlying structure in the data.
+\end{itemize}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.98\textwidth]{./figures/7_1_PCA_UM.png}
-\caption{Dimension reduction visualization using PCA, t-SNE, or UMAP.}
+\caption{Comparison of PCA, t-SNE, and UMAP projections colored by product category.}
 \label{fig:PCA_UM}
 \end{figure}
 
 \subsection{Result interpretation and analysis}
 \begin{itemize}[leftmargin=*]
-    \item Main effects and practical meaning:
-    \item Failure cases or where model performs poorly:
+    \item Main effects and practical meaning: Bikes are distinguishable from Accessories 
+    and Clothing primarily due to higher unit prices and profit margins. However, 
+    Accessories and Clothing overlap significantly, suggesting similar purchasing patterns.
+    \item Failure cases or where model performs poorly: Linear methods (PCA) struggle to 
+    separate categories because the numeric features alone do not fully encode product type. 
+    Non-linear methods (UMAP) perform better but still show overlap, indicating that 
+    categorical labels provide information beyond what numeric features capture.
 \end{itemize}
 
 
