@@ -1,9 +1,9 @@
 REM Check if Python 3.10 is installed
 py -3.10 --version >nul 2>&1
 if errorlevel 1 (
-    echo Python 3.10 not found. Installing Python 3.10 via winget...
+    echo Installing Python 3.10 for Umap package compatibility
     winget install Python.Python.3.10 --silent --accept-source-agreements --accept-package-agreements
-    echo Python 3.10 installation completed. Continuing setup...
+    echo Python 3.10 installation completed.
 )
 
 REM Check if .venv exists
@@ -19,6 +19,6 @@ REM Activate virtual environment
 call .venv\Scripts\activate.bat
 
 REM Install packages
-echo Installing packages...
+echo Installing packages. Use uv for faster installation.
 pip install uv
 uv pip install pandas numpy matplotlib seaborn ipykernel altair scipy scikit-learn umap-learn
