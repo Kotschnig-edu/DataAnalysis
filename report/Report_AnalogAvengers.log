@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  28 JAN 2026 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  28 JAN 2026 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex"
-(d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex
+**c:/DataAnalysis/report/Report_AnalogAvengers.tex
+(c:/DataAnalysis/report/Report_AnalogAvengers.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
-(C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+(C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -23,18 +23,18 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count283
@@ -49,22 +49,22 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen155
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks20
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen159
 \lightrulewidth=\dimen160
@@ -83,54 +83,54 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count288
 \@lastruleclass=\count289
 \@thisrulewidth=\dimen171
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count290
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count291
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen172
 \Hy@linkcounter=\count292
 \Hy@pagecounter=\count293
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count294
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -143,15 +143,15 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count295
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen173
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count296
@@ -169,33 +169,33 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count299
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count300
 \c@bookmark@seq@number=\count301
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip51
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen176
-)) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen177
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count302
@@ -245,7 +245,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen185
@@ -253,13 +253,13 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box55
 \enit@count@id=\count314
 \enitdp@description=\count315
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -269,16 +269,16 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count316
 \float@exts=\toks27
 \float@box=\box56
 \@float@everytoks=\toks28
 \@floatcapt=\box57
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
 Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@word=\toks29
 \SOUL@lasttoken=\toks30
@@ -300,9 +300,9 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen192
 \SOUL@uldp=\dimen193
 \SOUL@ulht=\dimen194
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+)) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count321
 ) (Report_AnalogAvengers.aux)
@@ -361,7 +361,7 @@ LaTeX Font Info:    ... okay on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count322
 \scratchdimen=\dimen195
@@ -374,74 +374,36 @@ LaTeX Font Info:    ... okay on input line 27.
 \MPnumerator=\count326
 \makeMPintoPDFobject=\count327
 \everyMPtoPDFconversion=\toks36
-) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 27.
+ (Report_AnalogAvengers.out) (Report_AnalogAvengers.out)
 \@outlinefile=\write3
 \openout3 = `Report_AnalogAvengers.out'.
-
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.29 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Missing } inserted.
-<inserted text> 
-                }
-l.29 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 
 Overfull \hbox (3.28197pt too wide) in paragraph at lines 40--41
 []\OT1/cmr/m/n/10.95 "Bike sales in Eu-rope" from https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe 
  []
 
-<./figures/3_2_consistency.png, id=3, 1148.3703pt x 354.123pt>
+<./figures/3_2_consistency.png, id=131, 1148.3703pt x 354.123pt>
 File: ./figures/3_2_consistency.png Graphic file (type png)
 <use ./figures/3_2_consistency.png>
 Package pdftex.def Info: ./figures/3_2_consistency.png  used on input line 110.
 (pdftex.def)             Requested size: 362.37569pt x 111.74385pt.
 [1
 
-{C:/Users/matth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+{C:/Users/fabia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.114 
       ]
-<./figures/3_2_boxplots.png, id=24, 1076.1003pt x 353.4003pt>
+<./figures/3_2_boxplots.png, id=147, 1076.1003pt x 353.4003pt>
 File: ./figures/3_2_boxplots.png Graphic file (type png)
 <use ./figures/3_2_boxplots.png>
 Package pdftex.def Info: ./figures/3_2_boxplots.png  used on input line 121.
@@ -462,17 +424,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.133     \item F
                  inal dataset shape after preprocessing: (8 new features add... <./figures/3_2_consistency.png> <./figures/3_2_boxplots.png>]
-<./figures/3_3_comparison.png, id=37, 1148.3703pt x 354.123pt>
+<./figures/3_3_comparison.png, id=158, 1148.3703pt x 354.123pt>
 File: ./figures/3_3_comparison.png Graphic file (type png)
 <use ./figures/3_3_comparison.png>
 Package pdftex.def Info: ./figures/3_3_comparison.png  used on input line 142.
 (pdftex.def)             Requested size: 407.66833pt x 125.71184pt.
-<./figures/4_1_timeseries.png, id=38, 1148.3703pt x 570.933pt>
+<./figures/4_1_timeseries.png, id=159, 1148.3703pt x 570.933pt>
 File: ./figures/4_1_timeseries.png Graphic file (type png)
 <use ./figures/4_1_timeseries.png>
 Package pdftex.def Info: ./figures/4_1_timeseries.png  used on input line 159.
 (pdftex.def)             Requested size: 443.9066pt x 220.69412pt.
-<./figures/4_2_histograms.png, id=39, 1148.3703pt x 354.123pt>
+<./figures/4_2_histograms.png, id=160, 1148.3703pt x 354.123pt>
 File: ./figures/4_2_histograms.png Graphic file (type png)
 <use ./figures/4_2_histograms.png>
 Package pdftex.def Info: ./figures/4_2_histograms.png  used on input line 167.
@@ -488,12 +450,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
                                                   \__shipout_drop_firstpage_...
 l.171 
        <./figures/3_3_comparison.png> <./figures/4_1_timeseries.png>]
-<./figures/4_3_correlation.png, id=51, 1055.142pt x 434.3427pt>
+<./figures/4_3_correlation.png, id=169, 1055.142pt x 434.3427pt>
 File: ./figures/4_3_correlation.png Graphic file (type png)
 <use ./figures/4_3_correlation.png>
 Package pdftex.def Info: ./figures/4_3_correlation.png  used on input line 182.
 (pdftex.def)             Requested size: 407.66833pt x 167.81561pt.
-<./figures/4_4_pattern.png, id=52, 1293.633pt x 354.123pt>
+<./figures/4_4_pattern.png, id=170, 1293.633pt x 354.123pt>
 File: ./figures/4_4_pattern.png Graphic file (type png)
 <use ./figures/4_4_pattern.png>
 Package pdftex.def Info: ./figures/4_4_pattern.png  used on input line 196.
@@ -509,18 +471,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has
                                                   \__shipout_drop_firstpage_...
 l.200 
        <./figures/4_2_histograms.png> <./figures/4_3_correlation.png>]
-<./figures/4_4_pattern_week.png, id=64, 1293.633pt x 353.4003pt>
+<./figures/4_4_pattern_week.png, id=180, 1293.633pt x 353.4003pt>
 File: ./figures/4_4_pattern_week.png Graphic file (type png)
 <use ./figures/4_4_pattern_week.png>
 Package pdftex.def Info: ./figures/4_4_pattern_week.png  used on input line 209.
 (pdftex.def)             Requested size: 443.9066pt x 121.26535pt.
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 228.
- (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
+ (C:\Users\fabia\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 228.
-<./figures/5_1_threshold_prob.png, id=65, 1076.823pt x 353.4003pt>
+<./figures/5_1_threshold_prob.png, id=181, 1076.823pt x 353.4003pt>
 File: ./figures/5_1_threshold_prob.png Graphic file (type png)
 <use ./figures/5_1_threshold_prob.png>
 Package pdftex.def Info: ./figures/5_1_threshold_prob.png  used on input line 257.
@@ -536,7 +498,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has
                                                   \__shipout_drop_firstpage_...
 l.261 T
        he three thresholds chosen are: <./figures/4_4_pattern.png> <./figures/4_4_pattern_week.png>]
-<./figures/5_2_cross_tab.png, id=82, 1118.7396pt x 426.393pt>
+<./figures/5_2_cross_tab.png, id=196, 1118.7396pt x 426.393pt>
 File: ./figures/5_2_cross_tab.png Graphic file (type png)
 <use ./figures/5_2_cross_tab.png>
 Package pdftex.def Info: ./figures/5_2_cross_tab.png  used on input line 271.
@@ -556,7 +518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-<./figures/5_3_conditional_prob.png, id=94, 496.4949pt x 498.663pt>
+<./figures/5_3_conditional_prob.png, id=205, 496.4949pt x 498.663pt>
 File: ./figures/5_3_conditional_prob.png Graphic file (type png)
 <use ./figures/5_3_conditional_prob.png>
 Package pdftex.def Info: ./figures/5_3_conditional_prob.png  used on input line 298.
@@ -567,12 +529,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) ha
                                                   \__shipout_drop_firstpage_...
 l.319 \newpage
                <./figures/5_3_conditional_prob.png>]
-<./figures/6_1_LLN.png, id=104, 738.5994pt x 278.9622pt>
+<./figures/6_1_LLN.png, id=213, 738.5994pt x 278.9622pt>
 File: ./figures/6_1_LLN.png Graphic file (type png)
 <use ./figures/6_1_LLN.png>
 Package pdftex.def Info: ./figures/6_1_LLN.png  used on input line 331.
 (pdftex.def)             Requested size: 407.66833pt x 153.97028pt.
-<./figures/6_2_CLT.png, id=105, 1292.9103pt x 357.7365pt>
+<./figures/6_2_CLT.png, id=214, 1292.9103pt x 357.7365pt>
 File: ./figures/6_2_CLT.png Graphic file (type png)
 <use ./figures/6_2_CLT.png>
 Package pdftex.def Info: ./figures/6_2_CLT.png  used on input line 343.
@@ -588,82 +550,68 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) ha
                                                   \__shipout_drop_firstpage_...
 l.372 \newpage
                <./figures/6_1_LLN.png> <./figures/6_2_CLT.png>]
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:379: LaTeX Error: Unicode character 𝑦 (U+1D466)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.379 𝑦
-          
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:381: LaTeX Error: Unicode character 𝑋 (U+1D44B)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.381 𝑋
-          
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-<./figures/7_1_PCA.png, id=118, 1148.3703pt x 354.123pt>
-File: ./figures/7_1_PCA.png Graphic file (type png)
-<use ./figures/7_1_PCA.png>
-Package pdftex.def Info: ./figures/7_1_PCA.png  used on input line 415.
-(pdftex.def)             Requested size: 443.9066pt x 136.88622pt.
-<./figures/7_1_PCA_UM.png, id=119, 1293.633pt x 372.1905pt>
-File: ./figures/7_1_PCA_UM.png Graphic file (type png)
-<use ./figures/7_1_PCA_UM.png>
-Package pdftex.def Info: ./figures/7_1_PCA_UM.png  used on input line 423.
-(pdftex.def)             Requested size: 443.9066pt x 127.713pt.
-[9
+<./figures/7_2_residuals.png, id=224, 1149.093pt x 714.7503pt>
+File: ./figures/7_2_residuals.png Graphic file (type png)
+<use ./figures/7_2_residuals.png>
+Package pdftex.def Info: ./figures/7_2_residuals.png  used on input line 427.
+(pdftex.def)             Requested size: 430.31812pt x 267.6599pt.
+ [9]
+<./figures/7_3_comparison.png, id=231, 714.7503pt x 426.393pt>
+File: ./figures/7_3_comparison.png Graphic file (type png)
+<use ./figures/7_3_comparison.png>
+Package pdftex.def Info: ./figures/7_3_comparison.png  used on input line 448.
+(pdftex.def)             Requested size: 317.07614pt x 189.16197pt.
+ [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.427 
-       <./figures/7_1_PCA.png>] [10
+l.452 
+       <./figures/7_2_residuals.png>]
+<./figures/7_1_PCA.png, id=238, 1148.3703pt x 354.123pt>
+File: ./figures/7_1_PCA.png Graphic file (type png)
+<use ./figures/7_1_PCA.png>
+Package pdftex.def Info: ./figures/7_1_PCA.png  used on input line 464.
+(pdftex.def)             Requested size: 443.9066pt x 136.88622pt.
+<./figures/7_1_PCA_UM.png, id=239, 1293.633pt x 372.1905pt>
+File: ./figures/7_1_PCA_UM.png Graphic file (type png)
+<use ./figures/7_1_PCA_UM.png>
+Package pdftex.def Info: ./figures/7_1_PCA_UM.png  used on input line 472.
+(pdftex.def)             Requested size: 443.9066pt x 127.713pt.
+ [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.475 \end{document}
-                     <./figures/7_1_PCA_UM.png>] (Report_AnalogAvengers.aux)
+l.491     \item Q
+                 -Q plot with explanation (5):
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.491     \item Q
+                 -Q plot with explanation (5):
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.491     \item Q
+                 -Q plot with explanation (5): <./figures/7_3_comparison.png> <./figures/7_1_PCA.png> <./figures/7_1_PCA_UM.png>] [12] (Report_AnalogAvengers.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Report_AnalogAvengers.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Report_AnalogAvengers.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A0D58FBE6398C00C14A45B9E5CE02BFB;7355.
+Package rerunfilecheck Info: File `Report_AnalogAvengers.out' has not changed.
+(rerunfilecheck)             Checksum: A0D58FBE6398C00C14A45B9E5CE02BFB;7355.
  ) 
 Here is how much of TeX's memory you used:
- 11038 strings out of 467871
- 173350 string characters out of 5418376
- 619903 words of memory out of 5000000
- 39724 multiletter control sequences out of 15000+600000
+ 11093 strings out of 467871
+ 174226 string characters out of 5418376
+ 622313 words of memory out of 5000000
+ 39771 multiletter control sequences out of 15000+600000
  635148 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,408b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (10 pages, 1485320 bytes).
+ 75i,9n,79p,468b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\fabia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fabia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Report_AnalogAvengers.pdf (12 pages, 1756713 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

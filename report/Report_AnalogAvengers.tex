@@ -16,9 +16,9 @@
 \author{% 
   Team: Analog Avengers\\ 
   Eingang Fabian
-  \And
+  \and
   Kotschnig Thomas
-  \And 
+  \and 
   Krenn Matthias 
   }
 
@@ -374,32 +374,81 @@ skewness is observed due to the underlying revenue distribution,
 
 \subsection{Linear or Polynomial model selection}
 \begin{itemize}[leftmargin=*]
-    \item Define target $y$ and predictors $X$:\\
-    The target variable 
-𝑦
-y is daily revenue, while the predictors 
-𝑋
-X are explanatory variables capturing temporal, operational, and demand-related effects.
-    \item Compared Linear Regression vs Polynomial Regression (degree 2, captures non-linearity).
-    Selection based on test R² and overfitting gap. Simpler model preferred when performance is similar.
-    \item Time-based 80/20 split respects temporal ordering. StandardScaler 
-    applied for stable coefficient estimation. Both models evaluated on 
-    unseen future data.
+    \item Define target $y$ and predictors $X$: Target $y$ is daily revenue, chosen as the key business KPI 
+    that directly informs budgeting and planning decisions. 
+    Predictors $X$ include volume metrics (Daily\_Qty, Daily\_Cost), temporal features 
+    (DayOfWeek, Month, IsWeekend), customer demographics (Avg\_Age), and categorical 
+    variables (Top\_Category, Top\_Country) to capture market segment effects.
+    \item Motivation for linear vs polynomial: Linear regression serves as an interpretable baseline 
+    where coefficients directly quantify each feature's impact on revenue. 
+    Polynomial regression (degree 2) tests whether non-linear relationships or feature 
+    interactions (e.g., quantity $\times$ category effects) improve predictions. 
+    Model selection prioritizes test $R^2$ while monitoring the overfitting gap 
+    (train $R^2$ $-$ test $R^2$); the simpler model is preferred when performance is comparable.
+    \item Any train-test split rationale (time-aware split if relevant): A time-based 80/20 split 
+    was used, training on earlier dates (2011--2015) and testing on recent data (2015--2016). 
+    This respects temporal ordering, prevents data leakage from future observations, 
+    and simulates a realistic forecasting scenario.
 \end{itemize}
 
 \subsection{Model fitting and validation}
 \begin{itemize}[leftmargin=*]
-    \item Fit procedure and preprocessing (scaling, feature selection):
-    \item Validation method (holdout, time-series split, etc.):
+    \item Fit procedure and preprocessing (scaling, feature selection): StandardScaler applied 
+    to all numeric features for stable gradient descent and comparable coefficient magnitudes. 
+    Categorical features (Top\_Category, Top\_Country) were one-hot encoded with the first 
+    category dropped to avoid multicollinearity.
+    \item Validation method (holdout, time-series split, etc.): Time-based holdout split (80\% train, 20\% test) 
+    ensures the model is evaluated on genuinely unseen future data. This is critical for 
+    time-series regression to avoid overly optimistic performance estimates.
     \item Metrics reported (RMSE, MAE, $R^2$) and why:
-    \item Residual analysis (at least one plot recommended):
+    \begin{itemize}
+        \item $R^2$: Proportion of variance explained, primary criterion for model selection
+        \item RMSE: Root mean squared error penalizes large deviations, reported in dollars
+        \item MAE: Mean absolute error provides a robust, interpretable average prediction error
+    \end{itemize}
+    Results: Linear Regression achieved Test $R^2$ = 0.9954, RMSE = \$2,267, MAE = \$1,808.
+    Polynomial Regression achieved Test $R^2$ = 0.9956, RMSE = \$2,227, MAE = \$1,784, with overfitting gap of 0.0017.
+    Polynomial regression (degree 2) was selected due to marginally better test performance.
+    \item Residual analysis (at least one plot recommended): Four diagnostic plots were created (Figure~\ref{fig:residuals}):
+    \begin{itemize}
+        \item Residuals vs Predicted: Random scatter centered around zero with no funnel shape, 
+        indicating homoscedasticity (constant variance).
+        \item Q-Q Plot: Points closely follow the theoretical line with minor deviations 
+        at the tails, confirming approximate normality of residuals.
+        \item Residuals Over Time: No systematic trend or drift visible; variance appears 
+        stable across the test period.
+        \item Actual vs Predicted: Points tightly clustered along the diagonal, 
+        demonstrating excellent predictive accuracy.
+    \end{itemize}
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{./figures/7_2_residuals.png}
+\caption{Residual diagnostics for the polynomial regression model (degree 2).}
+\label{fig:residuals}
+\end{figure}
 
 \subsection{Result interpretation and analysis}
 \begin{itemize}[leftmargin=*]
-    \item Main effects and practical meaning:
-    \item Failure cases or where model performs poorly:
+    \item Main effects and practical meaning: Daily\_Cost and Daily\_Qty are the dominant 
+    predictors, which aligns with business logic, more items sold at higher cost directly 
+    increases revenue. The polynomial model (degree 2) captures subtle non-linear interactions 
+    between features while maintaining excellent generalization.
+    \item Failure cases or where model performs poorly: Higher polynomial degrees (3 and 4) 
+    exhibit catastrophic overfitting, with test $R^2$ dropping to extreme negative values 
+    (see Figure~\ref{fig:model_comparison}). This confirms that degree 2 is optimal, complex 
+    enough to capture interactions but not so flexible that it memorizes training noise. 
+    Remaining prediction errors occur on days with unusual sales patterns not explained 
+    by the available features.
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{./figures/7_3_comparison.png}
+\caption{Model performance vs polynomial degree. Degrees 3--4 show severe overfitting.}
+\label{fig:model_comparison}
+\end{figure}
 
 
 
