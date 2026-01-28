@@ -16,9 +16,9 @@
 \author{% 
   Team: Analog Avengers\\ 
   Eingang Fabian
-  \and
+  \AND
   Kotschnig Thomas
-  \and 
+  \AND
   Krenn Matthias 
   }
 
@@ -532,17 +532,31 @@ Profit\_Margin) and examine whether product categories form natural clusters.
 
 
 \section{Key Findings and Conclusions}
-\begin{itemize}[leftmargin=*]
-    \item Main findings from preprocessing and EDA:
-    \item Main findings from probability tasks:
-    \item Main findings from LLN and CLT:
-    \item Main findings from regression:
-    \item Limitations:
-    \item What you would do next if you had more time:\\
+
+\textbf{Preprocessing and EDA:}\\
+The dataset was of high quality, with no missing values and only minor temporal gaps. Duplicate removal improved consistency with minimal impact on overall trends. Exploratory analysis revealed strong seasonality, a clear positive long-term revenue trend, and very strong correlations among financial variables (revenue, cost, profit). Customer age showed negligible influence on revenue, indicating that sales performance is primarily driven by product and volume rather than demographics.
+\\
+\vspace{1em}
+\textbf{Probability Analysis:}\\
+High-value transactions account for roughly one quarter of all sales, but the probability increases by more than a factor of three when conditioning on bike sales. Large order quantities do not necessarily imply higher profit probability, suggesting potential margin trade-offs. Geographic differences were observed, particularly Canada’s relatively higher share of accessory sales compared to bikes.
+\\
+\vspace{1em}
+\textbf{LLN and CLT:}\\
+The Law of Large Numbers was confirmed as sample mean revenue converged to the population mean with increasing sample size. The Central Limit Theorem was empirically validated, with sampling distributions of the mean approaching normality for larger samples despite skewness in the underlying revenue distribution.
+\\
+\vspace{1em}
+\textbf{Regression Analysis:}\\
+Daily revenue was predicted with very high accuracy using cost, quantity, temporal, and categorical features. A degree-2 polynomial regression slightly outperformed the linear model while maintaining strong generalization, whereas higher-degree models exhibited severe overfitting. Residual diagnostics showed no systematic bias or temporal drift.
+\\
+\vspace{1em}
+\textbf{Limitations and Future Work:}\\
+The absence of detailed timestamps and richer customer information limits finer-grained analysis. Outliers influence variance and dimensionality reduction results. Future work would focus on additional feature engineering, time-series models, customer segmentation, and the inclusion of external factors to improve explanatory power.
+\\
+\vspace{1em}
+\textbf{What you would do next if you had more time:}\\
 We would investigate additional features that could improve the data analysis.
 Such as our feature engineering steps already showed, that new features can add a lot of value.
 We would investigate those new features and their impact on the analysis.
-\end{itemize}
 
 
 
@@ -551,8 +565,19 @@ We would investigate those new features and their impact on the analysis.
 
 \section{Reproducibility Notes}
 \begin{itemize}[leftmargin=*]
-    \item Exact dataset source link and version or download date:
-    \item Key libraries used and versions (optional but recommended):
+    \item Exact dataset source link, last accessed on 28.01.2026: https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
+    \item Key libraries used and versions:
+    \begin{itemize}[leftmargin=*]
+        \item Python 3.10.11
+        \item pandas 2.3.3
+        \item numpy 2.2.6
+        \item matplotlib 3.10.8
+        \item seaborn 0.13.2
+        \item scipy 1.15.3
+        \item scikit-learn 1.3.2
+        \item plotly 5.16.0 
+        \item umap-learn 0.5.4
+    \end{itemize}   
     \item How to run the notebook end-to-end:\\
 For running the notebook error free, we have created a “Install.bat” batch file. The batch file installs:
 	\begin{itemize}[leftmargin=*]
@@ -562,8 +587,8 @@ For running the notebook error free, we have created a “Install.bat” batch f
 Important perquisite: \\
 \textbf{A windows system.}\\
 
-vspace{1em} \\
-Step-by-Step user guide:
+\\
+\underline{Step-by-Step user guide:}
 	\begin{enumerate}[leftmargin=*]
         \item Clone the github repository: ‘git clone https://github.com/Kotschnig-edu/DataAnalysis.git’ 
         \item Run the “Install.bat” file in the cloned repository.

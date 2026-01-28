@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  28 JAN 2026 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  28 JAN 2026 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,7 +305,8 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count321
-) (Report_AnalogAvengers.aux)
+)
+No file Report_AnalogAvengers.aux.
 \openout1 = `Report_AnalogAvengers.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -326,7 +327,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -383,6 +383,29 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package hyperref Info: Link coloring OFF on input line 27.
 \@outlinefile=\write3
 \openout3 = `Report_AnalogAvengers.out'.
+
+
+d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Undefined control sequence.
+\@author ...Analog Avengers\\ Eingang Fabian \AND 
+                                                  Kotschnig Thomas \AND Kren...
+l.29 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Undefined control sequence.
+\@author ...ang Fabian \AND Kotschnig Thomas \AND 
+                                                  Krenn Matthias 
+l.29 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (3.28197pt too wide) in paragraph at lines 40--41
@@ -615,29 +638,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) ha
                                                   \__shipout_drop_firstpage_...
 l.506     \item F
                  ailure cases or where model performs poorly: Linear methods... <./figures/7_1_PCA.png> <./figures/7_1_PCA_UM.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 562--564
+Overfull \hbox (56.90665pt too wide) in paragraph at lines 568--569
+[]\OT1/cmr/m/n/10.95 Exact dataset source link, last ac-cessed on 28.01.2026: https://www.kaggle.com/datasets/sadiqshah/bike-
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
 
  []
 
 
-Overfull \hbox (7.11456pt too wide) in paragraph at lines 568--569
-[]\OT1/cmr/m/n/10.95 Clone the github repos-i-tory: `git clone https://github.com/Kotschnig-edu/DataAnalysis.git' 
- []
-
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:580: LaTeX Error: \begin{itemize} on input line 553 ended by \end{document}.
+d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:591: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 \end{document}
+l.591 \underline
+                {Step-by-Step user guide:}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.11456pt too wide) in paragraph at lines 593--594
+[]\OT1/cmr/m/n/10.95 Clone the github repos-i-tory: `git clone https://github.com/Kotschnig-edu/DataAnalysis.git' 
+ []
+
+
+d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:605: LaTeX Error: \begin{itemize} on input line 567 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.605 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12] (Report_AnalogAvengers.aux)
+[13] (Report_AnalogAvengers.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -660,20 +701,20 @@ Package rerunfilecheck Info: Checksums for `Report_AnalogAvengers.out':
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 553 (\begingroup)
+### semi simple group (level 1) entered at line 567 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11057 strings out of 467871
- 173880 string characters out of 5418376
- 620903 words of memory out of 5000000
+ 11056 strings out of 467871
+ 173739 string characters out of 5418376
+ 620912 words of memory out of 5000000
  39736 multiletter control sequences out of 15000+600000
  635148 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,408b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,583b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (12 pages, 1747832 bytes).
+Output written on Report_AnalogAvengers.pdf (13 pages, 1752315 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
