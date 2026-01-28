@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  27 JAN 2026 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  28 JAN 2026 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,7 +614,27 @@ l.381 𝑋
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[9] [10] (Report_AnalogAvengers.aux)
+<./figures/7_1_PCA.png, id=118, 1148.3703pt x 354.123pt>
+File: ./figures/7_1_PCA.png Graphic file (type png)
+<use ./figures/7_1_PCA.png>
+Package pdftex.def Info: ./figures/7_1_PCA.png  used on input line 415.
+(pdftex.def)             Requested size: 443.9066pt x 136.88622pt.
+<./figures/7_1_PCA_UM.png, id=119, 1293.633pt x 372.1905pt>
+File: ./figures/7_1_PCA_UM.png Graphic file (type png)
+<use ./figures/7_1_PCA_UM.png>
+Package pdftex.def Info: ./figures/7_1_PCA_UM.png  used on input line 423.
+(pdftex.def)             Requested size: 443.9066pt x 127.713pt.
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.427 
+       <./figures/7_1_PCA.png>] [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.475 \end{document}
+                     <./figures/7_1_PCA_UM.png>] (Report_AnalogAvengers.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -630,20 +650,20 @@ Package rerunfilecheck Warning: File `Report_AnalogAvengers.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Report_AnalogAvengers.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  38C40610744DA172F87EFDB8A94DDD1E;6604.
+(rerunfilecheck)             After:  A0D58FBE6398C00C14A45B9E5CE02BFB;7355.
  ) 
 Here is how much of TeX's memory you used:
- 11017 strings out of 467871
- 172862 string characters out of 5418376
+ 11038 strings out of 467871
+ 173350 string characters out of 5418376
  619903 words of memory out of 5000000
- 39708 multiletter control sequences out of 15000+600000
+ 39724 multiletter control sequences out of 15000+600000
  635148 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,408b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (10 pages, 1246280 bytes).
+Output written on Report_AnalogAvengers.pdf (10 pages, 1485320 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
