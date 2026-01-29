@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  28 JAN 2026 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.25)  29 JAN 2026 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,8 +305,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (C:\Users\matth\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count321
-)
-No file Report_AnalogAvengers.aux.
+) (Report_AnalogAvengers.aux)
 \openout1 = `Report_AnalogAvengers.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -327,6 +326,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -385,29 +385,6 @@ Package hyperref Info: Link coloring OFF on input line 27.
 \openout3 = `Report_AnalogAvengers.out'.
 
 
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Undefined control sequence.
-\@author ...Analog Avengers\\ Eingang Fabian \AND 
-                                                  Kotschnig Thomas \AND Kren...
-l.29 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-d:/FH JOANNEUM/Eingang Fabian - DA_Project/DataAnalysis/report/Report_AnalogAvengers.tex:29: Undefined control sequence.
-\@author ...ang Fabian \AND Kotschnig Thomas \AND 
-                                                  Krenn Matthias 
-l.29 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Overfull \hbox (3.28197pt too wide) in paragraph at lines 40--41
 []\OT1/cmr/m/n/10.95 "Bike sales in Eu-rope" from https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe 
  []
@@ -423,8 +400,8 @@ Package pdftex.def Info: ./figures/3_2_consistency.png  used on input line 110.
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 
-      ]
+l.113 \end{figure}
+                  ]
 <./figures/3_2_boxplots.png, id=23, 1076.1003pt x 353.4003pt>
 File: ./figures/3_2_boxplots.png Graphic file (type png)
 <use ./figures/3_2_boxplots.png>
@@ -704,15 +681,15 @@ Package rerunfilecheck Info: Checksums for `Report_AnalogAvengers.out':
 ### semi simple group (level 1) entered at line 567 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11056 strings out of 467871
- 173739 string characters out of 5418376
- 620912 words of memory out of 5000000
+ 11058 strings out of 467871
+ 173887 string characters out of 5418376
+ 619906 words of memory out of 5000000
  39736 multiletter control sequences out of 15000+600000
  635148 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,583b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\matth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matth/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report_AnalogAvengers.pdf (13 pages, 1752315 bytes).
+Output written on Report_AnalogAvengers.pdf (13 pages, 1754042 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)

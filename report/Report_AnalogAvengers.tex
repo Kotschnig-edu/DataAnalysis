@@ -16,13 +16,13 @@
 \author{% 
   Team: Analog Avengers\\ 
   Eingang Fabian
-  \AND
+  \&
   Kotschnig Thomas
-  \AND
+  \&
   Krenn Matthias 
   }
 
-\date{}
+\date{\today}
 
 \begin{document}
 \maketitle
@@ -299,7 +299,7 @@ P(High-Profit $|$ Large Order) = 44,93\%\\
 \caption{Conditional probability analysis visualization.}
 \label{fig:conditional_prob}
 \end{figure}
-Interesting! When a Bike is sold the probability that the Transaction is a high Value transaction 
+When a Bike is sold the probability that the Transaction is a high Value transaction 
 increases with the Factor of 3.24.When we compare the probability that a Transaction is a high 
 profit transaction to the probability that a transaction is a high profit transaction under the 
 condition that the order quantity is flagged with large order, we can see a decrease in the 
@@ -533,27 +533,27 @@ Profit\_Margin) and examine whether product categories form natural clusters.
 
 \section{Key Findings and Conclusions}
 
-\textbf{Preprocessing and EDA:}\\
+\noindent\textbf{Preprocessing and EDA:}\\
 The dataset was of high quality, with no missing values and only minor temporal gaps. Duplicate removal improved consistency with minimal impact on overall trends. Exploratory analysis revealed strong seasonality, a clear positive long-term revenue trend, and very strong correlations among financial variables (revenue, cost, profit). Customer age showed negligible influence on revenue, indicating that sales performance is primarily driven by product and volume rather than demographics.
-\\
+
 \vspace{1em}
-\textbf{Probability Analysis:}\\
+\noindent\textbf{Probability Analysis:}\\
 High-value transactions account for roughly one quarter of all sales, but the probability increases by more than a factor of three when conditioning on bike sales. Large order quantities do not necessarily imply higher profit probability, suggesting potential margin trade-offs. Geographic differences were observed, particularly Canada’s relatively higher share of accessory sales compared to bikes.
-\\
+
 \vspace{1em}
-\textbf{LLN and CLT:}\\
+\noindent\textbf{LLN and CLT:}\\
 The Law of Large Numbers was confirmed as sample mean revenue converged to the population mean with increasing sample size. The Central Limit Theorem was empirically validated, with sampling distributions of the mean approaching normality for larger samples despite skewness in the underlying revenue distribution.
-\\
+
 \vspace{1em}
-\textbf{Regression Analysis:}\\
+\noindent\textbf{Regression Analysis:}\\
 Daily revenue was predicted with very high accuracy using cost, quantity, temporal, and categorical features. A degree-2 polynomial regression slightly outperformed the linear model while maintaining strong generalization, whereas higher-degree models exhibited severe overfitting. Residual diagnostics showed no systematic bias or temporal drift.
-\\
+
 \vspace{1em}
-\textbf{Limitations and Future Work:}\\
+\noindent\textbf{Limitations and Future Work:}\\
 The absence of detailed timestamps and richer customer information limits finer-grained analysis. Outliers influence variance and dimensionality reduction results. Future work would focus on additional feature engineering, time-series models, customer segmentation, and the inclusion of external factors to improve explanatory power.
-\\
+
 \vspace{1em}
-\textbf{What you would do next if you had more time:}\\
+\noindent\textbf{What you would do next if you had more time:}\\
 We would investigate additional features that could improve the data analysis.
 Such as our feature engineering steps already showed, that new features can add a lot of value.
 We would investigate those new features and their impact on the analysis.
